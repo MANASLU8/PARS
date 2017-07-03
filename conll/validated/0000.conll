@@ -1,0 +1,1294 @@
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	ну	НУ	PART	PART	_	_	_	_	_
+3	в	В	ADP	ADP	_	2	вПред	_	_
+4	общем	ОБЩЕЕ	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=NEUT|NUM=SING	3	Пред	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	что	ЧТО	CONJ	CONJ	_	_	_	_	_
+2	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+3	могу	МОЧЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	1	Придат	_	_
+4	добавить	ДОБАВИТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	3	Сост_сказ	_	_
+5	по	ПО	ADP	ADP	_	4	поВин,поДат,поПред	_	_
+6	IOS7	IOS7	NOUN	NOUN	ANIMACY=INAN|CASE=DAT|NUM=SING	5	Вин|Дат|Пред	_	_
+7	ээ	ЭЭ	X	X	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	это	ЭТОТ	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	8	Какой	_	_
+2	то	ТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	9	Вин	_	_
+3	что	ЧТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	4	Союз	_	_
+4	ээ	ЭЭ	X	X	_	_	_	_	_
+5	теперь	ТЕПЕРЬ	ADV	ADV	_	9	Когда	_	_
+6	ээ	ЭЭ	X	X	_	_	_	_	_
+7	главная	ГЛАВНЫЙ	ADJ	ADJ	CASE=NOM|GENDER=FEM|NUM=SING	8	Какой	_	_
+8	фишка	ФИШКА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	9	Субъект	_	_
+9	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	3	Союз	_	_
+10	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	2	Межд	_	_
+2	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+3	считаю	СЧИТАТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	это	ЭТО	PART	PART	_	2	Частица	_	_
+2	анимация	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	потому что	ПОТОМУ ЧТО	CONJ	CONJ	_	_	_	_	_
+2	больше	БОЛЬШОЙ	ADJ	ADJ	DEGREE=CMP	1	Придат	_	_
+3	нечего	НЕЧЕГО	ADV	ADV	_	2	Род	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	больше	БОЛЬШЕ	ADV	ADV	_	4	Как	_	_
+2	ничего	НИЧТО	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	4	Род	_	_
+3	не	НЕ	PART	PART	_	4	Отриц	_	_
+4	цепляет	ЦЕПЛЯТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	PUNCT	_	_
+
+1	э	Э	INTJ	INTJ	_	2	Межд	_	_
+2	раньше	РАНЬШЕ	ADV	ADV	_	5	Когда	_	_
+3	у	У	ADP	ADP	_	5	уИмея	_	_
+4	нас	МЫ	PRON	PRON	CASE=GEN|NUM=PLUR	3	Род	_	_
+5	были	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+6	красивые	КРАСИВЫЙ	ADJ	ADJ	CASE=NOM|NUM=PLUR	7	Какой	_	_
+7	кнопочки	КНОПОЧКА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=PLUR	5	Субъект	_	_
+8	объёмчики	ОБЪЕМЧИКИ	X	X	_	1	_	_	_
+9	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	всем	ВСЁ|ВСЕ	PRON	PRON	CASE=INS|GENDER=NEUT|NUM=SING	3	Тв	_	_
+2	всё	ВСЁ	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	3	Субъект	_	_
+3	нравилось	НРАВИТЬСЯ	VERB	VERB	ASP=IMPF|GENDER=NEUT|NUM=SING|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	3	Вин	_	_
+5	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	сейчас	СЕЙЧАС	ADV	ADV	_	4	Когда	_	_
+3	этого	ЭТО	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	4	Род	_	_
+4	нету	НЕТУ	ADV	ADV	_	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	нужно	НУЖНО	ADV	ADV	_	_	_	_	_
+3	как-то	КАК-ТО	ADV	ADV	_	4	Как,Когда	_	_
+4	выделять	ВЫДЕЛЯТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	2	Инфин	_	_
+5	ээ	ЭЭ	X	X	_	_	_	_	_
+6	свои	СВОЙ	PRON	PRON	CASE=ACC|NUM=PLUR	7	Какой	_	_
+7	приложения	ПРИЛОЖЕНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=NEUT|NUM=PLUR	4	Вин	_	_
+8	на	НА	ADP	ADP	_	4	наПред	_	_
+9	фоне	ФОН	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=MASC|NUM=SING	8	Пред	_	_
+10	других	ДРУГОЙ	PRON	PRON	CASE=GEN|NUM=PLUR	9	Род	_	_
+11	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	потому что	ПОТОМУ ЧТО	CONJ	CONJ	_	_	_	_	_
+2	первые	ПЕРВЫЙ	NUM	NUM	CASE=NOM|NUM=PLUR	3	Какой	_	_
+3	полгода	ПОЛГОДА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=NEUT|NUM=PLUR	1	Им_Вин	_	_
+4	да	ДА	PART	PART	_	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	будут	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+2	все	ВСЕ	PRON	PRON	CASE=NOM|NUM=PLUR	1	Субъект	_	_
+3	изучать	ИЗУЧАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+4	SDK	SDK	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	3	Вин	_	_
+5	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	будут	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+2	ээ	ЭЭ	X	X	_	1	_	_	_
+3	делать	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+4	стандартную	СТАНДАРТНЫЙ	ADJ	ADJ	CASE=ACC|GENDER=FEM|NUM=SING	5	Какой	_	_
+5	анимацию	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	3	Вин	_	_
+6	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	эээ	ЭЭЭ	X	X	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	все	ВСЕ	ADV	ADV	_	2	Как	_	_
+2	будем	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+3	будут	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	1	_	_	_
+4	этим	ЭТО	PRON	PRON	CASE=INS|GENDER=NEUT|NUM=SING	5	Тв	_	_
+5	играться	ИГРАТЬСЯ	VERB	VERB	ASP=IMPF|TRANSITIVITY=INTRANS|VOICE=ACT	3	Инфин	_	_
+6	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	но	НО	CONJ	CONJ	_	2	Союз	_	_
+2	потом	ПОТОМ	ADV	ADV	_	4	Когда	_	_
+3	как и	КАК И	CONJ	CONJ	_	4	Союз	_	_
+4	было	БЫТЬ	VERB	VERB	ASP=PERF|GENDER=NEUT|NUM=SING|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+5	в	В	ADP	ADP	_	4	Где	_	_
+6	самом	САМ|САМЫЙ	PRON	PRON	CASE=LOC|GENDER=NEUT|NUM=SING	7	Какой	_	_
+7	начале	НАЧАЛО	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=NEUT|NUM=SING	5	Пред	_	_
+8	с	С	ADP	ADP	_	4	_	_	_
+9	эээ	ЭЭЭ	X	X	_	1	_	_	_
+10	со	СО	ADP	ADP	_	4	_	_	_
+11	скеоморфизмом	СКЕОМОРФИЗМОМ	X	X	_	1	_	_	_
+12	и	И	CONJ	CONJ	_	14	Союз	_	_
+13	текущим	ТЕКУЩИЙ	ADJ	ADJ	CASE=INS|GENDER=MASC|NUM=SING	14	Какой	_	_
+14	интерфейсом	ИНТЕРФЕЙС	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=MASC|NUM=SING	4	Тв	_	_
+15	.	.	PUNCT	PUNCT	_	4	PUNCT	_	_
+
+1	все	ВСЕ	PRON	PRON	CASE=NOM|NUM=PLUR	3	Субъект	_	_
+2	этим	ЭТО	PRON	PRON	CASE=INS|GENDER=NEUT|NUM=SING	3	Тв	_	_
+3	наиграются	НАИГРАТЬСЯ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	и	И	CONJ	CONJ	_	5	Союз	_	_
+5	захотят	ЗАХОТЕТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	3	Однор	_	_
+6	чего-то	ЧТО-ТО	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	5	Род	_	_
+7	нового	НОВЫЙ	ADJ	ADJ	CASE=GEN|GENDER=NEUT|NUM=SING	6	Какой	_	_
+8	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	будут	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+2	придумывать	ПРИДУМЫВАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+3	разные	РАЗНЫЙ	ADJ	ADJ	CASE=ACC|NUM=PLUR	6	Какой	_	_
+4	ээ	ЭЭ	X	X	_	1	_	_	_
+5	слайд	СЛАЙД	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	2	Вин	_	_
+6	меню	МЕНЮ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=NEUT|NUM=PLUR	2	Вин	_	_
+7	и так далее	И ТАК ДАЛЕЕ	ADV	ADV	_	6	Однор	_	_
+8	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	сейчас	СЕЙЧАС	ADV	ADV	_	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	уже	УЖЕ	ADV	ADV	_	2	Когда	_	_
+2	надо	НАДО	ADV	ADV	_	_	_	_	_
+3	делать	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	2	Инфин	_	_
+4	упор	УПОР	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	3	Вин	_	_
+5	на	НА	ADP	ADP	_	3	_	_	_
+6	моушн	МОУШН	X	X	_	_	_	_	_
+7	дизайн	ДИЗАЙН	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	3	Вин	_	_
+8	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	нужно	НУЖНО	ADV	ADV	_	_	_	_	_
+2	продумывать	ПРОДУМЫВАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+3	ээ	ЭЭ	X	X	_	_	_	_	_
+4	все	ВЕСЬ	PRON	PRON	CASE=ACC|NUM=PLUR	6	Какой	_	_
+5	эти	ЭТОТ	PRON	PRON	CASE=ACC|NUM=PLUR	6	Какой	_	_
+6	штучки	ШТУЧКА	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=PLUR	2	Вин	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и вот	И ВОТ	PART	PART	_	2	Частица	_	_
+2	недавно	НЕДАВНО	ADV	ADV	_	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	буквально	БУКВАЛЬНО	ADV	ADV	_	2	Как	_	_
+2	вчера	ВЧЕРА	ADV	ADV	_	3	Когда	_	_
+3	кажется	КАЗАТЬСЯ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	уберто	УБЕРТО	X	X	_	1	_	_	_
+2	показал	ПОКАЗАТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	видео	ВИДЕО	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=NEUT|NUM=SING	2	Вин	_	_
+4	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	всё	ВСЕ	ADV	ADV	_	2	Как	_	_
+2	всё	ВСЕ	ADV	ADV	_	_	_	_	_
+3	всё	ВСЕ	ADV	ADV	_	2	Как	_	_
+4	всё	ВСЕ	ADV	ADV	_	3	Как	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	2	Субъект	_	_
+2	понял	ПОНЯТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	они	ОНИ	PRON	PRON	CASE=NOM|NUM=PLUR	2	Субъект	_	_
+2	показали	ПОКАЗАТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	интересную	ИНТЕРЕСНЫЙ	ADJ	ADJ	CASE=ACC|GENDER=FEM|NUM=SING	4	Какой	_	_
+4	идею	ИДЕЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	2	Вин	_	_
+5	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	уже	УЖЕ	ADV	ADV	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	он	ОН	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	3	Субъект	_	_
+2	вначале	ВНАЧАЛЕ	ADV	ADV	_	3	Когда	_	_
+3	поиграет	ПОИГРАТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	что такое	ЧТО ТАКОЕ	ADV	ADV	_	_	_	_	_
+2	IOS7	IOS7	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|NUM=SING	1	Субъект	_	_
+3	сейчас	СЕЙЧАС	ADV	ADV	_	1	Когда	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	это	ЭТО	PART	PART	_	2	Частица	_	_
+2	жесты	ЖЕСТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=PLUR	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	новые	НОВЫЙ	ADJ	ADJ	CASE=NOM|NUM=PLUR	2	Какой	_	_
+2	жесты	ЖЕСТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=PLUR	_	_	_	_
+3	нн	НН	X	X	_	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	у	У	ADP	ADP	_	6	Где	_	_
+2	нас	МЫ	PRON	PRON	CASE=GEN|NUM=PLUR	1	Род	_	_
+3	ээ	ЭЭ	X	X	_	1	_	_	_
+4	пользователи	ПОЛЬЗОВАТЕЛЬ	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|GENDER=MASC|NUM=PLUR	6	Субъект	_	_
+5	ээ	ЭЭ	X	X	_	1	_	_	_
+6	продвинулись	ПРОДВИНУТЬСЯ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+7	.	.	PUNCT	PUNCT	_	6	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	у	У	ADP	ADP	_	4	Где	_	_
+3	них	ОНИ	PRON	PRON	CASE=GEN|NUM=PLUR	2	Род	_	_
+4	есть	ЕСТЬ	ADV	ADV	_	_	_	_	_
+5	прогресс	ПРОГРЕСС	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	4	Субъект	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	уже	УЖЕ	ADV	ADV	_	4	Когда	_	_
+3	не	НЕ	PART	PART	_	4	Отриц	_	_
+4	надо	НАДО	ADV	ADV	_	_	_	_	_
+5	пользователям	ПОЛЬЗОВАТЕЛЬ	NOUN	NOUN	ANIMACY=ANIM|CASE=DAT|GENDER=MASC|NUM=PLUR	4	Дат	_	_
+6	мм	ММ	INTJ	INTJ	_	7	Межд	_	_
+7	доказывать	ДОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	4	Инфин	_	_
+8	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	2	Межд	_	_
+2	показывать	ПОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	объяснять	ОБЪЯСНЯТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	2	Однор	_	_
+4	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	что	ЧТО	CONJ	CONJ	_	_	_	_	_
+2	крестик	КРЕСТИК	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	6	Вин	_	_
+3	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	6	Вин	_	_
+4	вот	ВОТ	PART	PART	_	5	Частица	_	_
+5	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	6	Субъект	_	_
+6	закроет	ЗАКРЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	1	Придат	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	что	ЧТО	CONJ	CONJ	_	_	_	_	_
+2	фотоаппарат	ФОТОАППАРАТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	4	Субъект	_	_
+3	зн	ЗН	X	X	_	_	_	_	_
+4	откроет	ОТКРЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	1	Придат	_	_
+5	камеру	КАМЕРА	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	4	Вин	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	они	ОНИ	PRON	PRON	CASE=NOM|NUM=PLUR	4	Субъект	_	_
+2	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	4	Вин	_	_
+3	уже	УЖЕ	ADV	ADV	_	4	Когда	_	_
+4	знают	ЗНАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	поэтому	ПОЭТОМУ	ADV	ADV	_	_	_	_	_
+3	теперь	ТЕПЕРЬ	ADV	ADV	_	4	Когда	_	_
+4	нужно	НУЖНО	ADV	ADV	_	2	Почему	_	_
+5	идти	ИДТИ	VERB	VERB	ASP=IMPF|TRANSITIVITY=INTRANS|VOICE=ACT	4	Инфин	_	_
+6	в	В	ADP	ADP	_	5	вПред,Где	_	_
+7	новом	НОВЫЙ	ADJ	ADJ	CASE=LOC|GENDER=NEUT|NUM=SING	8	Какой	_	_
+8	направлении	НАПРАВЛЕНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=NEUT|NUM=SING	6	Пред	_	_
+9	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	это	ЭТО	PART	PART	_	2	Частица	_	_
+2	жесты	ЖЕСТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=PLUR	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	учить	УЧИТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+2	ээ	ЭЭ	X	X	_	1	_	_	_
+3	людей	ЧЕЛОВЕК	NOUN	NOUN	ANIMACY=ANIM|CASE=ACC|GENDER=MASC|NUM=PLUR	1	Вин	_	_
+4	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	н	Н	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	7	Вин	_	_
+2	ну	НУ	PART	PART	_	3	Межд	_	_
+3	но	НО	CONJ	CONJ	_	4	Союз	_	_
+4	ну	НУ	PART	PART	_	6	Межд	_	_
+5	новые	НОВЫЙ	ADJ	ADJ	CASE=ACC|NUM=PLUR	6	Какой	_	_
+6	жесты	ЖЕСТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=PLUR	7	Вин	_	_
+7	изучать	ИЗУЧАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+8	.	.	PUNCT	PUNCT	_	7	PUNCT	_	_
+
+1	придумывать	ПРИДУМЫВАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+2	новые	НОВЫЙ	ADJ	ADJ	CASE=ACC|NUM=PLUR	3	Какой	_	_
+3	жесты	ЖЕСТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=PLUR	1	Вин	_	_
+4	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	анимация	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ещё	ЕЩЕ	PART	PART	_	2	Огранич	_	_
+2	прикольно	ПРИКОЛЬНЫЙ	ADJ	ADJ	GENDER=NEUT|NUM=SING|VARIANT=SHORT	_	_	_	_
+3	вам	ВЫ	PRON	PRON	CASE=DAT|NUM=PLUR	4	Дат	_	_
+4	показать	ПОКАЗАТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	2	Инфин	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	_	_	_	_
+2	насколько	НАСКОЛЬКО	CONJ	CONJ	_	1	Союз	_	_
+3	правильный	ПРАВИЛЬНЫЙ	ADJ	ADJ	CASE=NOM|GENDER=MASC|NUM=SING	5	Какой	_	_
+4	этот	ЭТОТ	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	5	Какой	_	_
+5	подход	ПОДХОД	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	2	Им_Вин	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	мне кажется	МНЕ КАЖЕТСЯ	ADV	ADV	_	_	_	_	_
+2	это	ЭТО	PART	PART	_	4	Частица	_	_
+3	не	НЕ	PART	PART	_	4	Отриц	_	_
+4	неверно	НЕВЕРНО	ADV	ADV	_	1	Как	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	когда-то	КОГДА-ТО	ADV	ADV	_	4	Когда	_	_
+3	эппл	ЭППЛ	X	X	_	_	_	_	_
+4	говорил	ГОВОРИТЬ	VERB	VERB	ASP=IMPF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	1	Придат	_	_
+5	что	ЧТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	4	Вин	_	_
+6	э	Э	INTJ	INTJ	_	_	_	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	2	Однор	_	_
+2	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	3	Субъект	_	_
+3	делаем	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	на	НА	ADP	ADP	_	3	наПред	_	_
+5	нашем	НАШ	PRON	PRON	CASE=LOC|GENDER=MASC|NUM=SING	6	Какой	_	_
+6	интерфейсе	ИНТЕРФЕЙС	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=MASC|NUM=SING	4	Пред	_	_
+7	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	построим	ПОСТРОИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+2	на	НА	ADP	ADP	_	1	наПред	_	_
+3	жестах	ЖЕСТ	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=MASC|NUM=PLUR	2	Пред	_	_
+4	которые	КОТОРЫЙ	PRON	PRON	CASE=ACC|NUM=PLUR	1	Вин	_	_
+5	знакомы	ЗНАКОМЫЙ	ADJ	ADJ	NUM=PLUR|VARIANT=SHORT	1	Сост_сказ	_	_
+6	любым	ЛЮБОЙ	PRON	PRON	CASE=DAT|NUM=PLUR	7	Какой	_	_
+7	людям	ЧЕЛОВЕК	NOUN	NOUN	ANIMACY=ANIM|CASE=DAT|GENDER=MASC|NUM=PLUR	5	Дат	_	_
+8	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	им	ОНИ	PRON	PRON	CASE=DAT|NUM=PLUR	3	Дат	_	_
+2	не	НЕ	PART	PART	_	3	Отриц	_	_
+3	нужно	НУЖНО	ADV	ADV	_	_	_	_	_
+4	ничему	НИЧТО	PRON	PRON	CASE=DAT|GENDER=NEUT|NUM=SING	3	Дат	_	_
+5	учиться	УЧИТЬСЯ	VERB	VERB	ASP=IMPF|TRANSITIVITY=INTRANS|VOICE=ACT	3	Инфин	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	просто	ПРОСТО	PART	PART	_	2	Частица	_	_
+2	бери	БРАТЬ	VERB	VERB	ASP=IMPF|MOOD=IMP|NUM=SING|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	пальцем	ПАЛЕЦ	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=MASC|NUM=SING	2	Тв	_	_
+4	перетягивай	ПЕРЕТЯГИВАТЬ	VERB	VERB	ASP=IMPF|MOOD=IMP|NUM=SING|TRANSITIVITY=TRNS|VOICE=ACT	1	_	_	_
+5	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	сейчас	СЕЙЧАС	ADV	ADV	_	4	Когда	_	_
+3	нам	МЫ	PRON	PRON	CASE=DAT|NUM=PLUR	4	Дат	_	_
+4	нужно	НУЖНО|НУЖНЫЙ	ADV	ADV	_	_	_	_	_
+5	там	ТАМ	ADV	ADV	_	4	Где	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	знать	ЗНАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+2	что	ЧТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	1	Вин	_	_
+3	два	ДВА	NUM	NUM	CASE=NOM|GENDER=NEUT	4	СостЧисл	_	_
+4	два	ДВА	NUM	NUM	CASE=NOM|GENDER=NEUT	1	Сколько	_	_
+5	раза	РАЗ	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=MASC|NUM=SING	4	Род	_	_
+6	туда	ТУДА	ADV	ADV	_	1	Куда	_	_
+7	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	один	ОДИН	NUM	NUM	CASE=NOM|GENDER=MASC	_	_	_	_
+2	раз	РАЗ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	1	Им_Вин	_	_
+3	сюда	СЮДА	ADV	ADV	_	2	Куда	_	_
+4	там	ТАМ	ADV	ADV	_	3	Где	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	пятью	ПЯТЬ	NUM	NUM	CASE=INS	2	Сколько	_	_
+2	пальцами	ПАЛЕЦ	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=MASC|NUM=PLUR	5	Тв	_	_
+3	одной	ОДИН	NUM	NUM	CASE=GEN|GENDER=FEM	2	Род	_	_
+4	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+5	делать	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	4	Инфин	_	_
+6	то есть	ТО ЕСТЬ	CONJ	CONJ	_	4	Союз	_	_
+7	.	.	PUNCT	PUNCT	_	4	PUNCT	_	_
+
+1	не	НЕ	PART	PART	_	2	Отриц	_	_
+2	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+3	такого	ТАКОЙ	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	2	Род	_	_
+4	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	порог	ПОРОГ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	_	_	_	_
+2	вхождения	ВХОЖДЕНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=NEUT|NUM=SING	1	Род	_	_
+3	сейчас	СЕЙЧАС	ADV	ADV	_	6	Когда	_	_
+4	слишком	СЛИШКОМ	ADV	ADV	_	5	Как	_	_
+5	слишком	СЛИШКОМ	ADV	ADV	_	6	Как	_	_
+6	сильно	СИЛЬНО	ADV	ADV	_	_	_	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	3	Межд	_	_
+2	да	ДА	PART	PART	_	3	Частица	_	_
+3	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	нн	НН	X	X	_	1	_	_	_
+2	ну	НУ	PART	PART	_	3	Межд	_	_
+3	вот	ВОТ	PART	PART	_	1	_	_	_
+4	пп	ПП	X	X	_	1	_	_	_
+5	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	8	Субъект	_	_
+6	же	ЖЕ	PART	PART	_	5	Частица	_	_
+7	уже	УЖЕ	ADV	ADV	_	8	Когда	_	_
+8	прошли	ПРОЙТИ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+9	какую-то	КАКОЙ-ТО	PRON	PRON	CASE=ACC|GENDER=FEM|NUM=SING	10	Какой	_	_
+10	итерацию	ИТЕРАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	8	Вин	_	_
+11	.	.	PUNCT	PUNCT	_	8	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	5	Субъект	_	_
+3	уже	УЖЕ	ADV	ADV	_	5	Когда	_	_
+4	что-то	ЧТО-ТО	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	2	Однор	_	_
+5	обучились	ОБУЧИТЬСЯ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	1	Придат	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	5	Субъект	_	_
+3	раньше	РАНЬШЕ	ADV	ADV	_	5	Когда	_	_
+4	не	НЕ	PART	PART	_	5	Отриц	_	_
+5	были	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+6	знакомы	ЗНАКОМЫЙ	ADJ	ADJ	NUM=PLUR|VARIANT=SHORT	5	Сост_сказ	_	_
+7	с	С	ADP	ADP	_	6	сТв	_	_
+8	этим	ЭТОТ	PRON	PRON	CASE=INS|GENDER=NEUT|NUM=SING	9	Какой	_	_
+9	устройством	УСТРОЙСТВО	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=NEUT|NUM=SING	7	Тв	_	_
+10	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	сейчас	СЕЙЧАС	ADV	ADV	_	2	Когда	_	_
+2	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+3	настолько	НАСТОЛЬКО	ADV	ADV	_	2	Сколько	_	_
+4	тяжело	ТЯЖЕЛО	ADV	ADV	_	2	Как	_	_
+5	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	потому что	ПОТОМУ ЧТО	CONJ	CONJ	_	_	_	_	_
+2	все	ВЕСЬ	PRON	PRON	CASE=NOM|NUM=PLUR	4	Какой	_	_
+3	эти	ЭТОТ	PRON	PRON	CASE=NOM|NUM=PLUR	4	Какой	_	_
+4	жесты	ЖЕСТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=PLUR	1	Им_Вин	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	да	ДА	PART	PART	_	2	Частица	_	_
+2	сейчас	СЕЙЧАС	ADV	ADV	_	3	Когда	_	_
+3	дети	ДИТЯ	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|GENDER=NEUT|NUM=PLUR	_	_	_	_
+4	вон	ВОН	ADV	ADV	_	3	Куда	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	1	_	_	_
+2	они	ОНИ	PRON	PRON	CASE=NOM|NUM=PLUR	6	Субъект	_	_
+3	разговаривать	РАЗГОВАРИВАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	6	Сост_сказ	_	_
+4	ещё	ЕЩЕ	PART	PART	_	6	Огранич	_	_
+5	не	НЕ	PART	PART	_	6	Отриц	_	_
+6	умеют	УМЕТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+7	они	ОНИ	PRON	PRON	CASE=NOM|NUM=PLUR	2	Однор	_	_
+8	уже	УЖЕ	ADV	ADV	_	9	Когда	_	_
+9	пользуются	ПОЛЬЗОВАТЬСЯ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	1	_	_	_
+10	.	.	PUNCT	PUNCT	_	6	PUNCT	_	_
+
+1	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+2	даже	ДАЖЕ	PART	PART	_	3	Огранич	_	_
+3	думаю	ДУМАТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	вот	ВОТ	PART	PART	_	1	_	_	_
+5	км	КМ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	3	Вин	_	_
+6	ее	ОНА	PRON	PRON	CASE=GEN|GENDER=FEM|NUM=SING	5	Род	_	_
+7	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	когда	КОГДА	CONJ	CONJ	_	_	_	_	_
+2	показывали	ПОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	1	Придат	_	_
+3	вот	ВОТ	PART	PART	_	4	Частица	_	_
+4	все	ВСЕ	PRON	PRON	CASE=NOM|NUM=PLUR	2	Субъект	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	все	ВЕСЬ	PRON	PRON	CASE=NOM|NUM=PLUR	2	Какой	_	_
+2	элементы	ЭЛЕМЕНТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=PLUR	3	Субъект	_	_
+3	были	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	плоские	ПЛОСКИЙ	ADJ	ADJ	CASE=NOM|NUM=PLUR	3	Сост_сказ	_	_
+5	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	свитч	СВИТЧ	X	X	_	1	_	_	_
+3	был	БЫТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	с	С	ADP	ADP	_	3	сТв	_	_
+5	тенью	ТЕНЬ	NOUN	NOUN	ANIMACY=ANIM|CASE=INS|GENDER=FEM|NUM=SING	4	Тв	_	_
+6	ну	НУ	PART	PART	_	7	Межд	_	_
+7	мягкой	МЯГКИЙ	ADJ	ADJ	CASE=INS|GENDER=FEM|NUM=SING	5	Какой	_	_
+8	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	2	Союз	_	_
+2	не	НЕ	PART	PART	_	3	Отриц	_	_
+3	флетовское	ФЛЕТОВСКОЕ	X	X	_	_	_	_	_
+4	совершенно	СОВЕРШЕННЫЙ	ADJ	ADJ	GENDER=NEUT|NUM=SING|VARIANT=SHORT	1	Союз	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+2	даже	ДАЖЕ	PART	PART	_	3	Огранич	_	_
+3	думаю	ДУМАТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	что	ЧТО	CONJ	CONJ	_	_	_	_	_
+2	потом	ПОТОМ	ADV	ADV	_	4	Когда	_	_
+3	её	ОНА	PRON	PRON	CASE=ACC|GENDER=FEM|NUM=SING	4	Вин	_	_
+4	уберут	УБРАТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	1	Придат	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	а	А	CONJ	CONJ	_	3	Союз	_	_
+3	сделано	СДЕЛАТЬ	VERB	VERB	ASP=PERF|GENDER=NEUT|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VARIANT=SHORT|VOICE=PASS	5	Союз	_	_
+4	сейчас	СЕЙЧАС	ADV	ADV	_	3	Когда	_	_
+5	потому что	ПОТОМУ ЧТО	CONJ	CONJ	_	_	_	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	чтобы	ЧТОБЫ	CONJ	CONJ	_	2	Союз	_	_
+2	ну	НУ	PART	PART	_	_	_	_	_
+3	точно	ТОЧНО	PART	PART	_	4	Частица	_	_
+4	пользователь	ПОЛЬЗОВАТЕЛЬ	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|GENDER=MASC|NUM=SING	6	Субъект	_	_
+5	уже	УЖЕ	ADV	ADV	_	6	Когда	_	_
+6	научился	НАУЧИТЬСЯ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	1	Придат	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	3	Частица	_	_
+2	точно	ТОЧНО	ADV	ADV	_	3	Как	_	_
+3	знал	ЗНАТЬ	VERB	VERB	ASP=IMPF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	5	Союз	_	_
+4	положение	ПОЛОЖЕНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=NEUT|NUM=SING	3	Вин	_	_
+5	какое	КАКОЙ	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	_	_	_	_
+6	правильное	ПРАВИЛЬНЫЙ	ADJ	ADJ	CASE=NOM|GENDER=NEUT|NUM=SING	5	Однор	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	тогда	ТОГДА	ADV	ADV	_	2	Когда	_	_
+2	тени	ТЕНЬ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=PLUR	3	Субъект	_	_
+3	уберут	УБРАТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	и	И	CONJ	CONJ	_	5	Союз	_	_
+5	уже	УЖЕ	ADV	ADV	_	6	Когда	_	_
+6	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	1	_	_	_
+7	ок	ОКА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=PLUR	2	Род	_	_
+8	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	изначально	ИЗНАЧАЛЬНЫЙ	ADJ	ADJ	GENDER=NEUT|NUM=SING|VARIANT=SHORT	_	_	_	_
+3	просто	ПРОСТО	ADV	ADV	_	2	Как	_	_
+4	как-то	КАК-ТО	ADV	ADV	_	5	Как,Когда	_	_
+5	всё равно	ВСЁ РАВНО	ADV	ADV	_	2	Как	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	вот это	ВОТ ЭТО	PART	PART	_	2	Частица	_	_
+2	элемент	ЭЛЕМЕНТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	в	В	ADP	ADP	_	4	вПред	_	_
+2	котором	КОТОРЫЙ	PRON	PRON	CASE=LOC|GENDER=NEUT|NUM=SING	1	Пред	_	_
+3	можно	МОЖНО	ADV	ADV	_	_	_	_	_
+4	путаться	ПУТАТЬСЯ	VERB	VERB	ASP=IMPF|TRANSITIVITY=INTRANS|VOICE=ACT	3	Инфин	_	_
+5	ещё	ЕЩЕ	PART	PART	_	7	Огранич	_	_
+6	пока	ПОКА	ADV	ADV	_	5	какДолго	_	_
+7	что	ЧТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	3	Вин	_	_
+8	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и вот	И ВОТ	PART	PART	_	2	Частица	_	_
+2	постепенно	ПОСТЕПЕННО	ADV	ADV	_	9	Как	_	_
+3	опять	ОПЯТЬ	ADV	ADV	_	9	Как	_	_
+4	же	ЖЕ	PART	PART	_	3	Частица	_	_
+5	такими	ТАКОЙ	PRON	PRON	CASE=INS|NUM=PLUR	7	Какой	_	_
+6	мелкими	МЕЛКИЙ	ADJ	ADJ	CASE=INS|NUM=PLUR	7	Какой	_	_
+7	итерациями	ИТЕРАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=FEM|NUM=PLUR	10	Тв	_	_
+8	н	Н	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	7	Род	_	_
+9	начнём	НАЧАТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+10	делать	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	9	Сост_сказ	_	_
+11	другие	ДРУГОЙ	PRON	PRON	CASE=ACC|NUM=PLUR	12	Какой	_	_
+12	интерфейсы	ИНТЕРФЕЙС	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=PLUR	10	Вин	_	_
+13	и	И	CONJ	CONJ	_	14	Союз	_	_
+14	думать	ДУМАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=INTRANS|VOICE=ACT	10	Однор	_	_
+15	о	О	ADP	ADP	_	14	обПред	_	_
+16	пользователе	ПОЛЬЗОВАТЕЛЬ	NOUN	NOUN	ANIMACY=ANIM|CASE=LOC|GENDER=MASC|NUM=SING	15	Пред	_	_
+17	.	.	PUNCT	PUNCT	_	9	PUNCT	_	_
+
+1	да	ДА	PART	PART	_	2	Частица	_	_
+2	давно	ДАВНО	ADV	ADV	_	3	какДолго,Когда	_	_
+3	уже	УЖЕ	ADV	ADV	_	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	кто-то	КТО-ТО	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	5	Субъект	_	_
+2	уже	УЖЕ	ADV	ADV	_	3	Когда	_	_
+3	давно	ДАВНО	ADV	ADV	_	5	какДолго,Когда	_	_
+4	это	ЭТО	PART	PART	_	5	Частица	_	_
+5	порхал	ПОРХАТЬ	VERB	VERB	ASP=IMPF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	делают	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	делают	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	1	_	_	_
+4	уже	УЖЕ	ADV	ADV	_	3	Когда	_	_
+5	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	кстати	КСТАТИ	parataxis	parataxis	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	э	Э	INTJ	INTJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	чт	ЧТ	X	X	_	_	_	_	_
+3	а	А	CONJ	CONJ	_	4	Союз	_	_
+4	что	ЧТО	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	_	_	_	_
+5	это	ЭТО	PART	PART	_	4	Частица	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	да	ДА	PART	PART	_	3	Частица	_	_
+3	да	ДА	PART	PART	_	4	Частица	_	_
+4	да	ДА	PART	PART	_	5	Частица	_	_
+5	да	ДА	PART	PART	_	_	_	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+2	вообще	ВООБЩЕ	ADV	ADV	_	3	Огранич	_	_
+3	думаю	ДУМАТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	что	ЧТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	3	Вин	_	_
+5	Adobe	ADOBE	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	3	Вин	_	_
+6	должны	ДОЛЖЕН	ADJ	ADJ	NUM=PLUR|VARIANT=SHORT	3	Сост_сказ	_	_
+7	выпустить	ВЫПУСТИТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	6	Инфин	_	_
+8	скоро	СКОРО	ADV	ADV	_	7	Когда	_	_
+9	такой	ТАКОЙ	PRON	PRON	CASE=ACC|GENDER=MASC|NUM=SING	10	Какой	_	_
+10	продукт	ПРОДУКТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	7	Вин	_	_
+11	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	какой-то	КАКОЙ-ТО	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	_	_	_	_
+3	такой	ТАКОЙ	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	2	Однор	_	_
+4	гибридный	ГИБРИДНЫЙ	ADJ	ADJ	CASE=NOM|GENDER=MASC|NUM=SING	3	Однор	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	э	Э	INTJ	INTJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	чтобы	ЧТОБЫ	CONJ	CONJ	_	_	_	_	_
+2	и	И	CONJ	CONJ	_	4	Союз	_	_
+3	не	НЕ	PART	PART	_	4	Отриц	_	_
+4	собирать	СОБИРАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+5	программный	ПРОГРАММНЫЙ	ADJ	ADJ	CASE=ACC|GENDER=MASC|NUM=SING	6	Какой	_	_
+6	интерфейс	ИНТЕРФЕЙС	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	4	Вин	_	_
+7	c	C	X	X	_	_	_	_	_
+8	этими	ЭТОТ	PRON	PRON	CASE=INS|NUM=PLUR	9	Какой	_	_
+9	анимациями	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=FEM|NUM=PLUR	4	Тв	_	_
+10	в	В	ADP	ADP	_	4	_	_	_
+11	икскоде	ИКСКОДЕ	X	X	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	если	ЕСЛИ	CONJ	CONJ	_	_	_	_	_
+2	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	7	Вин	_	_
+3	дизайнер	ДИЗАЙНЕР	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|GENDER=MASC|NUM=SING	7	Им	_	_
+4	он	ОН	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	7	Субъект	_	_
+5	как бы	КАК БЫ	PART	PART	_	6	Частица	_	_
+6	не	НЕ	PART	PART	_	7	Отриц	_	_
+7	должен	ДОЛЖЕН	ADJ	ADJ	GENDER=MASC|NUM=SING|VARIANT=SHORT	1	Придат	_	_
+8	прямо	ПРЯМО	ADV	ADV	_	7	Как,Какой,Куда,Откуда,Где	_	_
+9	так	ТАК	ADV	ADV	_	10	Как	_	_
+10	настолько	НАСТОЛЬКО	ADV	ADV	_	7	Сколько	_	_
+11	упороться	УПОРОТЬ	X	X	_	_	_	_	_
+12	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	в то же время	В ТО ЖЕ ВРЕМЯ	ADV	ADV	_	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	photoshop	PHOTOSHOP	X	X	_	_	_	_	_
+3	в принципе	В ПРИНЦИПЕ	ADV	ADV	_	5	Как	_	_
+4	не	НЕ	PART	PART	_	5	Отриц	_	_
+5	нужен	НУЖНЫЙ	ADJ	ADJ	GENDER=MASC|NUM=SING|VARIANT=SHORT	_	_	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	потому что	ПОТОМУ ЧТО	CONJ	CONJ	_	_	_	_	_
+2	элементы	ЭЛЕМЕНТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=PLUR	1	Им_Вин	_	_
+3	стандартные	СТАНДАРТНЫЙ	ADJ	ADJ	CASE=NOM|NUM=PLUR	2	Какой	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	даже	ДАЖЕ	PART	PART	_	2	Огранич	_	_
+2	уже	УЖЕ	ADV	ADV	_	7	Когда	_	_
+3	ээ	ЭЭ	X	X	_	1	_	_	_
+4	цвет	ЦВЕТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	8	Субъект	_	_
+5	не	НЕ	PART	PART	_	6	Отриц	_	_
+6	особо	ОСОБО	ADV	ADV	_	7	Как	_	_
+7	важен	ВАЖНЫЙ	ADJ	ADJ	GENDER=MASC|NUM=SING|VARIANT=SHORT	8	Сост_сказ	_	_
+8	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+9	.	.	PUNCT	PUNCT	_	8	PUNCT	_	_
+
+1	потому что	ПОТОМУ ЧТО	CONJ	CONJ	_	2	Союз	_	_
+2	ээ	ЭЭ	X	X	_	_	_	_	_
+3	сейчас	СЕЙЧАС	ADV	ADV	_	4	Когда	_	_
+4	уже	УЗКИЙ	ADJ	ADJ	DEGREE=CMP	1	Придат	_	_
+5	IOS7	IOS7	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|NUM=SING	4	Род	_	_
+6	интерфейс	ИНТЕРФЕЙС	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	4	Им_Вин	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	меняется	МЕНЯТЬСЯ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+2	в принципе	В ПРИНЦИПЕ	ADV	ADV	_	3	Как	_	_
+3	исходя	ИСХОДИТЬ	VERB	VERB	ASP=IMPF|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	1	_	_	_
+4	из	ИЗ	ADP	ADP	_	3	Откуда	_	_
+5	картинки	КАРТИНКА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	4	Род	_	_
+6	на	НА	ADP	ADP	_	3	_	_	_
+7	бекграунде	БЕКГРАУНДЕ	X	X	_	1	_	_	_
+8	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	у	У	ADP	ADP	_	1	Союз	_	_
+3	нас	МЫ	PRON	PRON	CASE=GEN|NUM=PLUR	2	Род	_	_
+4	зелёная	ЗЕЛЕНЫЙ	ADJ	ADJ	CASE=NOM|GENDER=FEM|NUM=SING	5	Какой	_	_
+5	картинка	КАРТИНКА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	1	Им	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	у	У	ADP	ADP	_	6	уИмея	_	_
+2	нас	МЫ	PRON	PRON	CASE=GEN|NUM=PLUR	1	Род	_	_
+3	все	ВЕСЬ	PRON	PRON	CASE=NOM|NUM=PLUR	4	Какой	_	_
+4	кнопочки	КНОПОЧКА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=PLUR	6	Субъект	_	_
+5	уже	УЖЕ	ADV	ADV	_	6	Когда	_	_
+6	будут	БЫТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+7	там	ТАМ	ADV	ADV	_	6	Где	_	_
+8	светлые	СВЕТЛЫЙ	ADJ	ADJ	CASE=NOM|NUM=PLUR	4	Какой	_	_
+9	.	.	PUNCT	PUNCT	_	6	PUNCT	_	_
+
+1	уже	УЖЕ	ADV	ADV	_	_	_	_	_
+2	с	С	ADP	ADP	_	1	сТв	_	_
+3	зелеными	ЗЕЛЕНЫЙ	ADJ	ADJ	CASE=INS|NUM=PLUR	4	Какой	_	_
+4	контурами	КОНТУР	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=MASC|NUM=PLUR	2	Тв	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	2	Союз	_	_
+2	интефейс	ИНТЕФЕЙС	X	X	_	_	_	_	_
+3	меняется	МЕНЯТЬСЯ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	1	Придат	_	_
+4	в зависимости от	В ЗАВИСИМОСТИ ОТ	ADP	ADP	_	3	Как	_	_
+5	цвета	ЦВЕТ	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=MASC|NUM=SING	4	Род	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	н	Н	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	5	Род_Дат__Тв	_	_
+2	не	НЕ	PART	PART	_	3	Отриц	_	_
+3	б	Б	PART	PART	_	1	_	_	_
+4	не	НЕ	PART	PART	_	5	Отриц	_	_
+5	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+6	никакого	НИКАКОЙ	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	8	Какой	_	_
+7	цветового	ЦВЕТОВОЙ	ADJ	ADJ	CASE=GEN|GENDER=NEUT|NUM=SING	8	Какой	_	_
+8	кодирования	КОДИРОВАНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=NEUT|NUM=SING	5	Сост_сказ	_	_
+9	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	_	_	_	_
+2	если	ЕСЛИ	CONJ	CONJ	_	1	Союз	_	_
+3	и	И	CONJ	CONJ	_	4	Союз	_	_
+4	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	2	Придат	_	_
+5	то	ТО	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	4	Субъект	_	_
+6	минимальное	МИНИМАЛЬНЫЙ	ADJ	ADJ	CASE=NOM|GENDER=NEUT|NUM=SING	5	Какой	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	сделать	СДЕЛАТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	такой	ТАКОЙ	PRON	PRON	CASE=ACC|GENDER=MASC|NUM=SING	4	Какой	_	_
+4	продукт	ПРОДУКТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	2	Вин	_	_
+5	чтобы	ЧТОБЫ	CONJ	CONJ	_	2	Союз	_	_
+6	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	1	_	_	_
+2	эти	ЭТОТ	PRON	PRON	CASE=ACC|NUM=PLUR	4	Какой	_	_
+3	вот	ВОТ	PART	PART	_	4	Частица	_	_
+4	элементы	ЭЛЕМЕНТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=PLUR	7	Вин	_	_
+5	все	ВСЕ	PRON	PRON	CASE=NOM|NUM=PLUR	7	Субъект	_	_
+6	эти	ЭТОТ	PRON	PRON	CASE=NOM|NUM=PLUR	5	Какой	_	_
+7	анимировались	АНИМИРОВАТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+8	.	.	PUNCT	PUNCT	_	7	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	сразу	СРАЗУ	ADV	ADV	_	5	какДолго,Как	_	_
+3	же	ЖЕ	PART	PART	_	2	Частица	_	_
+4	причём	ПРИЧЕМ	ADV	ADV	_	5	Как	_	_
+5	выдавалось	ВЫДАВАТЬСЯ	VERB	VERB	ASP=IMPF|GENDER=NEUT|NUM=SING|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	на	НА	ADP	ADP	_	1	наПред,Где	_	_
+3	выходе	ВЫХОД	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=MASC|NUM=SING	2	Пред	_	_
+4	вот	ВОТ	PART	PART	_	6	Частица	_	_
+5	в	В	ADP	ADP	_	4	_	_	_
+6	икскод	ИКСКОД	X	X	_	_	_	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	поехали	ПОЕХАТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+3	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	1	_	_	_
+2	меньше	МЕНЬШЕ	ADV	ADV	_	3	Как	_	_
+3	тратим	ТРАТИТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	1	Придат	_	_
+4	тря	ТРЯ	X	X	_	1	_	_	_
+5	тратим	ТРАТИТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+6	на	НА	ADP	ADP	_	5	наВин	_	_
+7	визуальный	ВИЗУАЛЬНЫЙ	ADJ	ADJ	CASE=ACC|GENDER=MASC|NUM=SING	8	Какой	_	_
+8	дизайн	ДИЗАЙН	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	6	Вин	_	_
+9	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	э	Э	INTJ	INTJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	больше	БОЛЬШЕ	ADV	ADV	_	2	Как	_	_
+2	тратим	ТРАТИТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	на	НА	ADP	ADP	_	2	наВин	_	_
+4	анимацию	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	3	Вин	_	_
+5	и	И	CONJ	CONJ	_	6	Союз	_	_
+6	продумывание	ПРОДУМЫВАНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=NEUT|NUM=SING	4	Однор	_	_
+7	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	э	Э	INTJ	INTJ	_	3	Межд	_	_
+3	сократить	СОКРАТИТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	этот	ЭТОТ	PRON	PRON	CASE=ACC|GENDER=MASC|NUM=SING	5	Какой	_	_
+5	шаг	ШАГ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	3	Вин	_	_
+6	при	ПРИ	ADP	ADP	_	3	Где,Когда	_	_
+7	передаче	ПЕРЕДАЧА	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=FEM|NUM=SING	6	Пред	_	_
+8	разработчикам	РАЗРАБОТЧИК	NOUN	NOUN	ANIMACY=ANIM|CASE=DAT|GENDER=MASC|NUM=PLUR	7	Дат	_	_
+9	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	чтоб	ЧТОБ	CONJ	CONJ	_	_	_	_	_
+2	они	ОНИ	PRON	PRON	CASE=NOM|NUM=PLUR	1	Им	_	_
+3	уже	УЖЕ	ADV	ADV	_	2	Когда	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	не	НЕ	PART	PART	_	2	Отриц	_	_
+2	объяснять	ОБЪЯСНЯТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	7	Инфин	_	_
+3	им	ОН|ОНО	PRON	PRON	CASE=INS|GENDER=MASC|NUM=SING	2	Тв	_	_
+4	как	КАК	ADV	ADV	_	7	Как	_	_
+5	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	7	Субъект	_	_
+6	щас	ЩАС	INTJ	INTJ	_	7	Межд	_	_
+7	делаем	ДЕЛАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+8	.	.	PUNCT	PUNCT	_	7	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	2	Союз	_	_
+2	объясняем	ОБЪЯСНЯТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	анимацию	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	2	Вин	_	_
+4	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	_	_	_	_
+2	чувак	ЧУВАК	X	X	_	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	нужно	НУЖНО	ADV	ADV	_	_	_	_	_
+2	вылить	ВЫЛИТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+3	из	ИЗ	ADP	ADP	_	2	Откуда	_	_
+4	этого	ЭТОТ	PRON	PRON	CASE=GEN|GENDER=MASC|NUM=SING	5	Какой	_	_
+5	экрана	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=MASC|NUM=SING	3	Род	_	_
+6	туда	ТУДА	ADV	ADV	_	2	Куда	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	это	ЭТО	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	2	Субъект	_	_
+2	должно	ДОЛЖЕН	ADJ	ADJ	GENDER=NEUT|NUM=SING|VARIANT=SHORT	_	_	_	_
+3	так	ТАК	ADV	ADV	_	4	Как	_	_
+4	перевернуться	ПЕРЕВЕРНУТЬСЯ	VERB	VERB	ASP=PERF|TRANSITIVITY=INTRANS|VOICE=ACT	2	Инфин	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	гифками	ГИФКАМИ	X	X	_	1	_	_	_
+2	картинками	КАРТИНКА	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=FEM|NUM=PLUR	5	Тв	_	_
+3	видео	ВИДЕО	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=NEUT|NUM=SING	2	Род	_	_
+4	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	5	Вин	_	_
+5	показываем	ПОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	а	А	CONJ	CONJ	_	_	_	_	_
+2	чтобы	ЧТОБЫ	CONJ	CONJ	_	1	Союз	_	_
+3	он	ОН	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	7	Субъект	_	_
+4	уже	УЖЕ	ADV	ADV	_	5	Когда	_	_
+5	сразу	СРАЗУ	ADV	ADV	_	7	какДолго,Как	_	_
+6	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	7	Вин	_	_
+7	видел	ВИДЕТЬ	VERB	VERB	ASP=IMPF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	2	Придат	_	_
+8	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	3	Частица	_	_
+2	через	ЧЕРЕЗ	ADP	ADP	_	_	Через,Как	_	_
+3	какой-то	КАКОЙ-ТО	PRON	PRON	CASE=ACC|GENDER=MASC|NUM=SING	5	Какой	_	_
+4	вот	ВОТ	PART	PART	_	5	Частица	_	_
+5	инструмент	ИНСТРУМЕНТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	2	Вин	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	4	Субъект	_	_
+2	б	Б	PART	PART	_	1	Частица	_	_
+3	ещё	ЕЩЕ	ADV	ADV	_	4	Огранич	_	_
+4	показал	ПОКАЗАТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+5	ээ	ЭЭ	X	X	_	1	_	_	_
+6	одно	ОДИН	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	1	Какой	_	_
+7	.	.	PUNCT	PUNCT	_	4	PUNCT	_	_
+
+1	только	ТОЛЬКО	PART	PART	_	2	Огранич	_	_
+2	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	5	Субъект	_	_
+3	опять	ОПЯТЬ	ADV	ADV	_	5	Как	_	_
+4	не	НЕ	PART	PART	_	5	Отриц	_	_
+5	могу	МОЧЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+6	открыть	ОТКРЫТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	5	Сост_сказ	_	_
+7	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	2	Межд	_	_
+2	вот	ВОТ	PART	PART	_	_	_	_	_
+3	чт	ЧТ	X	X	_	_	_	_	_
+4	чт	ЧТ	X	X	_	_	_	_	_
+5	что-то	ЧТО-ТО	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	_	_	_	_
+6	похожее	ПОХОЖИЙ	ADJ	ADJ	CASE=NOM|GENDER=NEUT|NUM=SING	5	Какой	_	_
+7	да	ДА	PART	PART	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	не	НЕ	PART	PART	_	2	Отриц	_	_
+2	ну	НУ	PART	PART	_	3	Межд	_	_
+3	тут	ТУТ	ADV	ADV	_	4	Где,Когда	_	_
+4	просто	ПРОСТО	ADV	ADV	_	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	э	Э	INTJ	INTJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	не	НЕ	PART	PART	_	2	Отриц	_	_
+2	не	НЕ	PART	PART	_	3	Отриц	_	_
+3	тут	ТУТ	ADV	ADV	_	5	Где,Когда	_	_
+4	не	НЕ	PART	PART	_	5	Отриц	_	_
+5	показан	ПОКАЗАТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VARIANT=SHORT|VOICE=PASS	0	root	_	_
+6	конкретно	КОНКРЕТНО	ADV	ADV	_	5	Как	_	_
+7	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	5	Субъект	_	_
+8	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	это	ЭТО	PART	PART	_	3	Частица	_	_
+2	просто	ПРОСТО	PART	PART	_	3	Частица	_	_
+3	кит	КИТ	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|GENDER=MASC|NUM=SING	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	э	Э	INTJ	INTJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	это	ЭТО	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	3	Субъект	_	_
+2	чувак	ЧУВАК	X	X	_	1	_	_	_
+3	продаёт	ПРОДАВАТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	э	Э	INTJ	INTJ	_	5	Межд	_	_
+5	под	ПОД	ADP	ADP	_	3	_	_	_
+6	э	Э	INTJ	INTJ	_	7	Межд	_	_
+7	афтер	АФТЕР	X	X	_	1	_	_	_
+8	эффектс	ЭФФЕКТС	X	X	_	1	_	_	_
+9	ээ	ЭЭ	X	X	_	1	_	_	_
+10	темплейты	ТЕМПЛЕЙТЫ	X	X	_	1	_	_	_
+11	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	не	НЕ	PART	PART	_	3	Отриц	_	_
+3	ты	ТЫ	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	8	Субъект	_	_
+4	не	НЕ	PART	PART	_	5	Отриц	_	_
+5	обязат	ОБЯЗАТ	X	X	_	_	_	_	_
+6	не	НЕ	PART	PART	_	7	Отриц	_	_
+7	обязательно	ОБЯЗАТЕЛЬНО	ADV	ADV	_	_	_	_	_
+8	должен	ДОЛЖЕН	ADJ	ADJ	GENDER=MASC|NUM=SING|VARIANT=SHORT	1	Придат	_	_
+9	брать	БРАТЬ	VERB	VERB	ASP=IMPF|TRANSITIVITY=TRNS|VOICE=ACT	8	Инфин	_	_
+10	всю	ВЕСЬ	PRON	PRON	CASE=ACC|GENDER=FEM|NUM=SING	11	Какой	_	_
+11	анимацию	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	9	Вин	_	_
+12	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	но	НО	CONJ	CONJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ты	ТЫ	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	2	Субъект	_	_
+2	можешь	МОЧЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+3	взять	ВЗЯТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	2	Сост_сказ	_	_
+4	просто	ПРОСТО	ADV	ADV	_	3	Как	_	_
+5	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	2	Частица	_	_
+2	там	ТАМ	ADV	ADV	_	3	Где	_	_
+3	появление	ПОЯВЛЕНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=NEUT|NUM=SING	_	_	_	_
+4	вот	ВОТ	PART	PART	_	_	_	_	_
+5	ээ	ЭЭ	X	X	_	_	_	_	_
+6	аватарок	АВАТАРОК	X	X	_	_	_	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	или	ИЛИ	CONJ	CONJ	_	2	Союз	_	_
+2	вот	ВОТ	PART	PART	_	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	когда	КОГДА	CONJ	CONJ	_	2	Союз	_	_
+2	пины	ПИНЫ	X	X	_	_	_	_	_
+3	падают	ПАДАТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	1	Придат	_	_
+4	на	НА	ADP	ADP	_	3	наВин	_	_
+5	карту	КАРТА	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	4	Вин	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	как	КАК	ADV	ADV	_	4	Как	_	_
+3	карточки	КАРТОЧКА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=PLUR	4	Субъект	_	_
+4	переключаются	ПЕРЕКЛЮЧАТЬСЯ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	1	Придат	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	тебя	ТЫ	PRON	PRON	CASE=ACC|GENDER=FEM|NUM=SING	2	Вин	_	_
+2	привлекает	ПРИВЛЕКАТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	внимание	ВНИМАНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=NEUT|NUM=SING	2	Субъект	_	_
+4	к	К	ADP	ADP	_	3	кДат	_	_
+5	чему-то	ЧТО-ТО	PRON	PRON	CASE=DAT|GENDER=NEUT|NUM=SING	4	Дат	_	_
+6	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ты	ТЫ	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	смотри	СМОТРЕТЬ	VERB	VERB	ASP=IMPF|MOOD=IMP|NUM=SING|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+2	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	раньше	РАНЬШЕ	ADV	ADV	_	3	Когда	_	_
+2	ты	ТЫ	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+3	переходил	ПЕРЕХОДИТЬ	VERB	VERB	ASP=IMPF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	на	НА	ADP	ADP	_	3	_	_	_
+5	на	НА	ADP	ADP	_	3	наВин,Куда	_	_
+6	другой	ДРУГОЙ	PRON	PRON	CASE=ACC|GENDER=MASC|NUM=SING	7	Какой	_	_
+7	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	5	Вин	_	_
+8	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	1	_	_	_
+2	ты	ТЫ	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+3	переходил	ПЕРЕХОДИТЬ	VERB	VERB	ASP=IMPF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	на	НА	ADP	ADP	_	3	наВин,Куда	_	_
+5	другой	ДРУГОЙ	PRON	PRON	CASE=ACC|GENDER=MASC|NUM=SING	6	Какой	_	_
+6	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	4	Вин	_	_
+7	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	тебе	ТЫ	PRON	PRON	CASE=DAT|GENDER=FEM|NUM=SING	2	Дат	_	_
+2	нужно было	НУЖНО БЫЛО	ADV	ADV	_	_	_	_	_
+3	прежде чем	ПРЕЖДЕ ЧЕМ	CONJ	CONJ	_	2	Союз	_	_
+4	анить	АНИТЬ	X	X	_	_	_	_	_
+5	большой	БОЛЬШОЙ	ADJ	ADJ	CASE=INS|GENDER=FEM|NUM=SING	8	Какой	_	_
+6	красной	КРАСНЫЙ	ADJ	ADJ	CASE=INS|GENDER=FEM|NUM=SING	8	Какой	_	_
+7	объёмной	ОБЪЕМНЫЙ	ADJ	ADJ	CASE=INS|GENDER=FEM|NUM=SING	8	Какой	_	_
+8	кнопкой	КНОПКА	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=FEM|NUM=SING	2	Тв	_	_
+9	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	сейчас	СЕЙЧАС	ADV	ADV	_	3	Когда	_	_
+2	ты	ТЫ	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+3	переходишь	ПЕРЕХОДИТЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+4	на	НА	ADP	ADP	_	3	наВин,Куда	_	_
+5	другой	ДРУГОЙ	PRON	PRON	CASE=ACC|GENDER=MASC|NUM=SING	6	Какой	_	_
+6	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	4	Вин	_	_
+7	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	она	ОНА	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	2	Субъект	_	_
+2	может	МОЧЬ	VERB	VERB	ASP=IMPF|NUM=SING|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+3	там	ТАМ	ADV	ADV	_	2	Где	_	_
+4	спульсировать	СПУЛЬСИРОВАТЬ	X	X	_	1	_	_	_
+5	в	В	ADP	ADP	_	2	Когда	_	_
+6	там	ТАМ	ADV	ADV	_	5	Где	_	_
+7	в	В	ADP	ADP	_	2	вВин,Куда	_	_
+8	долю	ДОЛЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	7	Вин	_	_
+9	секунды	СЕКУНДА	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=PLUR	5	Вин	_	_
+10	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	ты	ТЫ	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	_	_	_	_
+3	на	НА	ADP	ADP	_	2	наВин	_	_
+4	нее	ОНА	PRON	PRON	CASE=ACC|GENDER=FEM|NUM=SING	3	Вин	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	то есть	ТО ЕСТЬ	CONJ	CONJ	_	_	_	_	_
+2	вот	ВОТ	PART	PART	_	4	Частица	_	_
+3	в	В	ADP	ADP	_	1	Союз	_	_
+4	этом	ЭТО	PRON	PRON	CASE=LOC|GENDER=NEUT|NUM=SING	3	Пред	_	_
+5	фишка	ФИШКА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	1	Им	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	в	В	ADP	ADP	_	3	вПред	_	_
+2	этом	ЭТО	PRON	PRON	CASE=LOC|GENDER=NEUT|NUM=SING	1	Пред	_	_
+3	идея	ИДЕЯ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	_	_	_	_
+2	не	НЕ	PART	PART	_	3	Отриц	_	_
+3	сильно	СИЛЬНО	ADV	ADV	_	1	Как	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	сделай	СДЕЛАТЬ	VERB	VERB	ASP=PERF|MOOD=IMP|NUM=SING|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+2	долю	ДОЛЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	1	Вин	_	_
+3	секунды	СЕКУНДА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	2	Род	_	_
+4	.	.	PUNCT	PUNCT	_	1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	3	Межд	_	_
+2	в	В	ADP	ADP	_	4	вПред	_	_
+3	общем	ОБЩЕЕ	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=NEUT|NUM=SING	2	Пред	_	_
+4	посмотрим	ПОСМОТРЕТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+5	что	ЧТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	4	Вин	_	_
+6	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	1	_	_	_
+7	.	.	PUNCT	PUNCT	_	4	PUNCT	_	_
+
+1	ээ	ЭЭ	X	X	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	щас	ЩАС	INTJ	INTJ	_	2	Межд	_	_
+2	пока	ПОКА	ADV	ADV	_	6	какДолго	_	_
+3	что	ЧТО	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	4	Союз	_	_
+4	ниче	НИЧЕ	X	X	_	_	_	_	_
+5	не	НЕ	PART	PART	_	6	Отриц	_	_
+6	понятно	ПОНЯТНО	ADV	ADV	_	4	Как	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	не	НЕ	PART	PART	_	2	Отриц	_	_
+2	так	ТАК	ADV	ADV	_	3	Как	_	_
+3	это	ЭТО	PART	PART	_	4	Частица	_	_
+4	темплейт	ТЕМПЛЕЙТ	X	X	_	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	это	ЭТО	PART	PART	_	5	Частица	_	_
+2	ж	Ж	PART	PART	_	4	Частица	_	_
+3	не	НЕ	PART	PART	_	4	Отриц	_	_
+4	реальный	РЕАЛЬНЫЙ	ADJ	ADJ	CASE=NOM|GENDER=MASC|NUM=SING	5	Какой	_	_
+5	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	_	_	_	_
+6	это	ЭТО	PART	PART	_	7	Частица	_	_
+7	темплейты	ТЕМПЛЕЙТЫ	X	X	_	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	это	ЭТО	PART	PART	_	2	Частица	_	_
+2	часть	ЧАСТЬ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	можно	МОЖНО	ADV	ADV	_	_	_	_	_
+2	взять	ВЗЯТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+3	только	ТОЛЬКО	PART	PART	_	4	Огранич	_	_
+4	там	ТАМ	ADV	ADV	_	2	Где	_	_
+5	о	О	ADP	ADP	_	2	обВин	_	_
+6	один	ОДИН	NUM	NUM	CASE=ACC|GENDER=MASC	7	СостЧисл	_	_
+7	одну	ОДИН	NUM	NUM	CASE=ACC|GENDER=FEM	5	Вин	_	_
+8	нюансу	НЮАНС	NOUN	NOUN	ANIMACY=INAN|CASE=DAT|GENDER=MASC|NUM=SING	9	Дат	_	_
+9	лёгкую	ЛЕГКИЙ	ADJ	ADJ	CASE=ACC|GENDER=FEM|NUM=SING	2	Вин	_	_
+10	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	_	_	_	_
+2	чтоб	ЧТОБ	CONJ	CONJ	_	1	Союз	_	_
+3	они	ОНИ	PRON	PRON	CASE=NOM|NUM=PLUR	5	Субъект	_	_
+4	все	ВЕСЬ	PRON	PRON	CASE=NOM|NUM=PLUR	3	Какой	_	_
+5	анимировали	АНИМИРОВАТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	2	Придат	_	_
+6	ещё	ЕЩЕ	ADV	ADV	_	5	Как	_	_
+7	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	этого	ЭТОТ	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	4	Какой	_	_
+2	этого	ЭТО	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	4	Род	_	_
+3	не	НЕ	PART	PART	_	4	Отриц	_	_
+4	нужно	НУЖНО	ADV	ADV	_	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	нужно	НУЖНО	ADV	ADV	_	_	_	_	_
+2	анимировать	АНИМИРОВАТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	1	Инфин	_	_
+3	только	ТОЛЬКО	ADV	ADV	_	2	Как	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	2	Межд	_	_
+2	смотри	СМОТРЕТЬ	VERB	VERB	ASP=IMPF|MOOD=IMP|NUM=SING|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	раньше	РАНЬШЕ	ADV	ADV	_	5	Когда	_	_
+4	как	КАК	ADV	ADV	_	5	Как	_	_
+5	было	БЫТЬ	VERB	VERB	ASP=PERF|GENDER=NEUT|NUM=SING|TENSE=PAST|TRANSITIVITY=INTRANS|VOICE=ACT	1	_	_	_
+6	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	плохой	ПЛОХОЙ	ADJ	ADJ	CASE=ACC|GENDER=MASC|NUM=SING	3	Какой	_	_
+2	там	ТАМ	ADV	ADV	_	1	Где	_	_
+3	дизайн	ДИЗАЙН	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	8	Вин	_	_
+4	ээ	ЭЭ	X	X	_	_	_	_	_
+5	хороший	ХОРОШИЙ	ADJ	ADJ	CASE=ACC|GENDER=MASC|NUM=SING	6	Какой	_	_
+6	дизайн	ДИЗАЙН	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	8	Вин	_	_
+7	можно было	МОЖНО БЫЛО	ADV	ADV	_	_	_	_	_
+8	отличить	ОТЛИЧИТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	7	Инфин	_	_
+9	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	щас	ЩАС	INTJ	INTJ	_	2	Межд	_	_
+2	в принципе	В ПРИНЦИПЕ	ADV	ADV	_	7	Как	_	_
+3	то	ТОТ	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	8	Какой	_	_
+4	же	ЖЕ	PART	PART	_	3	Частица	_	_
+5	по	ПО	ADP	ADP	_	8	поВин,поДат,поПред,Какой	_	_
+6	анимации	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=DAT|GENDER=FEM|NUM=SING	5	Вин|Дат|Пред	_	_
+7	можно будет	МОЖНО БУДЕТ	ADV	ADV	_	_	_	_	_
+8	сказать	СКАЗАТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	7	Инфин	_	_
+9	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	там	ТАМ	ADV	ADV	_	4	Где	_	_
+2	он	ОН	PRON	PRON	CASE=NOM|GENDER=MASC|NUM=SING	4	Субъект	_	_
+3	нормально	НОРМАЛЬНО	ADV	ADV	_	4	Как	_	_
+4	сделал	СДЕЛАТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	PUNCT	_	_
+
+1	правильно	ПРАВИЛЬНО	ADV	ADV	_	2	Как	_	_
+2	использовал	ИСПОЛЬЗОВАТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	анимацию	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	2	Вин	_	_
+4	либо	ЛИБО	CONJ	CONJ	_	6	Союз	_	_
+5	неправильно	НЕПРАВИЛЬНО	ADV	ADV	_	6	Как	_	_
+6	использовал	ИСПОЛЬЗОВАТЬ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	2	Однор	_	_
+7	анимацию	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	6	Вин	_	_
+8	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	да	ДА	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	да	ДА	PART	PART	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	вот	ВОТ	PART	PART	_	_	_	_	_
+2	именно	ИМЕННО	PART	PART	_	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	аккуратно	АККУРАТНО|АККУРАТНЫЙ	ADV	ADV	_	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	в	В	ADP	ADP	_	4	вПред	_	_
+2	этом	ЭТО	PRON	PRON	CASE=LOC|GENDER=NEUT|NUM=SING	1	Пред	_	_
+3	будет	БЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+4	отличаться	ОТЛИЧАТЬСЯ	VERB	VERB	ASP=IMPF|TRANSITIVITY=INTRANS|VOICE=ACT	3	Инфин	_	_
+5	как бы	КАК БЫ	PART	PART	_	6	Частица	_	_
+6	профессионализм	ПРОФЕССИОНАЛИЗМ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	3	Субъект	_	_
+7	.	.	PUNCT	PUNCT	_	3	PUNCT	_	_
+
+1	как	КАК	CONJ	CONJ	_	_	_	_	_
+2	аккуратно	АККУРАТНЫЙ	ADJ	ADJ	GENDER=NEUT|NUM=SING|VARIANT=SHORT	1	Придат	_	_
+3	использовать	ИСПОЛЬЗОВАТЬ	VERB	VERB	ASP=PERF|TRANSITIVITY=TRNS|VOICE=ACT	2	Инфин	_	_
+4	вот	ВОТ	PART	PART	_	5	Частица	_	_
+5	новые	НОВЫЙ	ADJ	ADJ	CASE=ACC|NUM=PLUR	6	Какой	_	_
+6	стили	СТИЛЬ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=PLUR	3	Вин	_	_
+7	и	И	CONJ	CONJ	_	8	Союз	_	_
+8	анимацию	АНИМАЦИЯ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	6	Однор	_	_
+9	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	и	И	CONJ	CONJ	_	2	Союз	_	_
+2	всего	ВСЕ	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	_	_	_	_
+3	такого	ТАКОЙ	PRON	PRON	CASE=GEN|GENDER=NEUT|NUM=SING	2	Какой	_	_
+4	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	всё	ВСЕ	ADV	ADV	_	2	Как	_	_
+2	выключаемся	ВЫКЛЮЧАТЬСЯ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=INTRANS|VOICE=ACT	0	root	_	_
+3	.	.	PUNCT	PUNCT	_	2	PUNCT	_	_
+
+1	всё	ВСЁ	PRON	PRON	CASE=NOM|GENDER=NEUT|NUM=SING	_	_	_	_
+2	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	5	Субъект	_	_
+2	просто	ПРОСТО	ADV	ADV	_	5	Как	_	_
+3	не	НЕ	PART	PART	_	4	Отриц	_	_
+4	не	НЕ	PART	PART	_	5	Отриц	_	_
+5	найду	НАЙТИ	VERB	VERB	ASP=PERF|NUM=SING|TENSE=FUT|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	PUNCT	_	_
+
+1	если б	ЕСЛИ Б	CONJ	CONJ	_	_	_	_	_
+2	я	Я	PRON	PRON	CASE=NOM|GENDER=FEM|NUM=SING	3	Субъект	_	_
+3	нашёл	НАЙТИ	VERB	VERB	ASP=PERF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	1	Придат	_	_
+4	ещё	ЕЩЕ	PART	PART	_	5	Огранич	_	_
+5	что-то	ЧТО-ТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	3	Вин	_	_
+6	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
+1	ну	НУ	PART	PART	_	_	_	_	_
+2	ладно	ЛАДНО	ADV	ADV	_	1	Как	_	_
+3	.	.	PUNCT	PUNCT	_	-1	PUNCT	_	_
+
