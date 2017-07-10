@@ -1,0 +1,18 @@
+#sentence_id = 53
+#sentence = ээ пригласили эксперта , эксперты поставили свои , ну посмотрели каждую из работ , оценили 
+
+1	ээ	ЭЭ	INTJ	INTJ	_	2	dicourse:filler	_	_
+2	пригласили	ПРИГЛАСИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+3	эксперта	ЭКСПЕРТ	NOUN	NOUN	ANIMACY=ANIM|CASE=ACC|GENDER=MASC|NUM=SING	2	obj	_	_
+4	,	,	PUNCT	PUNCT	_	2	edu:border	_	_
+5	эксперты	ЭКСПЕРТ	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|GENDER=MASC|NUM=PLUR	10	nsubj	_	_
+6	поставили	ПОСТАВИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	10	reparandum:apprepair	_	_
+7	свои	СВОЙ	ADJ	ADJ	CASE=NOM|NUM=PLUR	6	obj	_	_
+8	,	,	PUNCT	PUNCT	_	6	edu:border	_	_
+9	ну	НУ	PART	PART	_	10	discourse:et	_	_
+10	посмотрели	ПОСМОТРЕТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	2	conj	_	_
+11	каждую	КАЖДАЯ	ADJ	ADJ	CASE=ACC|GENDER=FEM|NUM=SING	10	obj	_	_
+12	из	ИЗ	ADP	ADP	_	13	case	_	_
+13	работ	РАБОТА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=PLUR	11	nmod	_	_
+14	,	,	PUNCT	PUNCT	_	10	edu:border	_	_
+15	оценили	ОЦЕНИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	10	conj	_	_

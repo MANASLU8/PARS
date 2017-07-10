@@ -1,0 +1,21 @@
+#sentence_id = 47
+#sentence = в этом этим летом проходил проходила битва двух столиц , и в москве ребята очень удачно провели мероприятие 
+
+1	в	В	ADP	ADP	_	2	case	_	_
+2	этом	ЭТОТ	ADJ	ADJ	CASE=LOC|GENDER=NEUT|NUM=SING	4	reparandum:apprepair	_	_
+3	этим	ЭТОТ	ADJ	ADJ	CASE=INS|GENDER=NEUT|NUM=SING	4	amod	_	_
+4	летом	ЛЕТО	NOUN	NOUN	ANIMACY=INAN|CASE=INS|GENDER=NEUT|NUM=SING	6	advmod	_	_
+5	проходил	ПРОХОДИТЬ	VERB	VERB	ASP=IMPF|GENDER=MASC|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	6	reparandum:apprepair	_	_
+6	проходила	ПРОХОДИТЬ	VERB	VERB	ASP=IMPF|GENDER=FEM|NUM=SING|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	0	root	_	_
+7	битва	БИТВА	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=FEM|NUM=SING	6	nsubj	_	_
+8	двух	ДВА	NUM	NUM	CASE=GEN	9	nummod	_	_
+9	столиц	СТОЛИЦА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=PLUR	7	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	6	edu:border	_	_
+11	и	И	CONJ	CONJ	_	17	cc	_	_
+12	в	В	ADP	ADP	_	13	case	_	_
+13	москве	МОСКВА	PNOUN	PNOUN	ANIMACY=INAN|CASE=LOC|GENDER=FEM|NUM=SING	17	obl	_	_
+14	ребята	РЕБЯТА	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|NUM=PLUR	17	nsubj	_	_
+15	очень	ОЧЕНЬ	ADV	ADV	_	16	advmod	_	_
+16	удачно	УДАЧНО	ADV	ADV	_	17	advmod	_	_
+17	провели	ПРОВЕСТИ	VERB	VERB	ASP=PERF|NUM=PLUR|TENSE=PAST|TRANSITIVITY=TRNS|VOICE=ACT	6	conj	_	_
+18	мероприятие	МЕРОПРИЯТИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=NEUT|NUM=SING	17	obj	_	_
