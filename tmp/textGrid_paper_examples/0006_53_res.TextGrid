@@ -1,0 +1,188 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 6.874965986394558
+tiers? <exists>
+size = 6
+item []:
+	item [1]
+		class = "IntervalTier"
+		name = "wbound"
+		xmin = 0.0
+		xmax = 6.874965986394558
+		intervals: size = 15
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.011709312684164598
+			text = ""
+		intervals [2]:
+			xmin = 0.011709312684164598
+			xmax = 0.6947162282974375
+			text = "s"
+		intervals [3]:
+			xmin = 0.6947162282974375
+			xmax = 1.717078781227997
+			text = "s"
+		intervals [4]:
+			xmin = 1.717078781227997
+			xmax = 2.0134780087582853
+			text = "  g"
+		intervals [5]:
+			xmin = 2.0134780087582853
+			xmax = 2.5890938999040625
+			text = " "
+		intervals [6]:
+			xmin = 2.5890938999040625
+			xmax = 3.5556131201115244
+			text = "g"
+		intervals [7]:
+			xmin = 3.5556131201115244
+			xmax = 4.017548779115898
+			text = "s"
+		intervals [8]:
+			xmin = 4.017548779115898
+			xmax = 4.527755238748343
+			text = ""
+		intervals [9]:
+			xmin = 4.527755238748343
+			xmax = 5.037961698380789
+			text = ""
+		intervals [10]:
+			xmin = 5.037961698380789
+			xmax = 5.166550318288153
+			text = "s"
+		intervals [11]:
+			xmin = 5.166550318288153
+			xmax = 5.626980537956459
+			text = ""
+		intervals [12]:
+			xmin = 5.626980537956459
+			xmax = 5.9783546320982275
+			text = ""
+		intervals [13]:
+			xmin = 5.9783546320982275
+			xmax = 6.102928220480523
+			text = ""
+		intervals [14]:
+			xmin = 6.102928220480523
+			xmax = 6.43584443737375
+			text = ""
+		intervals [15]:
+			xmin = 6.43584443737375
+			xmax = 6.874965986394558
+			text = "s"
+	item [1]
+		class = "IntervalTier"
+		name = "PSENT"
+		xmin = 0.011709312684164598
+		xmax = 6.874965986394558
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.011709312684164598
+			xmax = 6.874965986394558
+			text = "1"
+	item [1]
+		class = "IntervalTier"
+		name = "EDU"
+		xmin = 0.011709312684164598
+		xmax = 6.874965986394558
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.011709312684164598
+			xmax = 3.5556131201115244
+			text = "1"
+		intervals [2]:
+			xmin = 3.5556131201115244
+			xmax = 5.037961698380789
+			text = "2"
+		intervals [3]:
+			xmin = 5.037961698380789
+			xmax = 6.43584443737375
+			text = "3"
+		intervals [4]:
+			xmin = 6.43584443737375
+			xmax = 6.874965986394558
+			text = "4"
+	item [1]
+		class = "IntervalTier"
+		name = "WF"
+		xmin = 0.011709312684164598
+		xmax = 6.874965986394558
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.011709312684164598
+			xmax = 0.6947162282974375
+			text = "ээ"
+		intervals [2]:
+			xmin = 0.6947162282974375
+			xmax = 1.717078781227997
+			text = "пригласили"
+		intervals [3]:
+			xmin = 1.717078781227997
+			xmax = 2.0134780087582853
+			text = ""
+		intervals [4]:
+			xmin = 2.0134780087582853
+			xmax = 2.5890938999040625
+			text = "эксперта"
+		intervals [5]:
+			xmin = 2.5890938999040625
+			xmax = 3.5556131201115244
+			text = ""
+		intervals [6]:
+			xmin = 3.5556131201115244
+			xmax = 4.017548779115898
+			text = "эксперты"
+		intervals [7]:
+			xmin = 4.017548779115898
+			xmax = 4.527755238748343
+			text = "поставили"
+		intervals [8]:
+			xmin = 4.527755238748343
+			xmax = 5.037961698380789
+			text = "свои"
+		intervals [9]:
+			xmin = 5.037961698380789
+			xmax = 5.166550318288153
+			text = "ну"
+		intervals [10]:
+			xmin = 5.166550318288153
+			xmax = 5.626980537956459
+			text = "посмотрели"
+		intervals [11]:
+			xmin = 5.626980537956459
+			xmax = 5.9783546320982275
+			text = "каждую"
+		intervals [12]:
+			xmin = 5.9783546320982275
+			xmax = 6.102928220480523
+			text = "из"
+		intervals [13]:
+			xmin = 6.102928220480523
+			xmax = 6.43584443737375
+			text = "работ"
+		intervals [14]:
+			xmin = 6.43584443737375
+			xmax = 6.874965986394558
+			text = "оценили"
+	item [1]
+		class = "IntervalTier"
+		name = "SR"
+		xmin = 0.0
+		xmax = 6.874965986394558
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 6.874965986394558
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "FRS"
+		xmin = 0.0
+		xmax = 6.874965986394558
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 6.874965986394558
+			text = ""
