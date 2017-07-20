@@ -1,0 +1,9 @@
+Маппинг уровней wave assistant -> praat
+WA_level	tags_WA_level	Praat_level
+B	s,g	wbound
+none	none	PSENT 	#границы предложений из текстовки
+R1	integer	EDU
+B2	char	WF
+Y2	discourse:filler,discourse:pfiller,discourse:strfiller	FRS
+G3	repair:apprepair,repair:revision,repair:repetition,repair:pwrepetition,repair:placeholder,repair:frstart,reparandum:apprepair,reparandum:revision,reparandum:repetition,reparandum:pwrepetition,reparandum:placeholder,reparandum:frstart,insertion	SR
+
