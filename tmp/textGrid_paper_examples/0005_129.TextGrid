@@ -1,0 +1,174 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 9.04408163265306
+tiers? <exists>
+size = 5
+item []:
+	item [1]
+		class = "IntervalTier"
+		name = "PSENT"
+		xmin = 0.0
+		xmax = 9.04408163265306
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 9.04408163265306
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "EDU"
+		xmin = 0.0
+		xmax = 9.04408163265306
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 9.0440589569161
+			text = "0"
+	item [1]
+		class = "IntervalTier"
+		name = "WF"
+		xmin = 0.0
+		xmax = 9.04408163265306
+		intervals: size = 19
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.2619501133786848
+			text = "мы"
+		intervals [2]:
+			xmin = 0.2619501133786848
+			xmax = 0.7806349206349207
+			text = "опять-таки"
+		intervals [3]:
+			xmin = 0.7806349206349207
+			xmax = 1.566326530612245
+			text = "обсуждаем"
+		intervals [4]:
+			xmin = 1.566326530612245
+			xmax = 1.855827664399093
+			text = ""
+		intervals [5]:
+			xmin = 1.855827664399093
+			xmax = 2.964965986394558
+			text = "э"
+		intervals [6]:
+			xmin = 2.964965986394558
+			xmax = 3.75453514739229
+			text = ""
+		intervals [7]:
+			xmin = 3.75453514739229
+			xmax = 4.159342403628118
+			text = "обсуждаем"
+		intervals [8]:
+			xmin = 4.159342403628118
+			xmax = 4.458140589569161
+			text = "просто"
+		intervals [9]:
+			xmin = 4.458140589569161
+			xmax = 5.284739229024943
+			text = "объем"
+		intervals [10]:
+			xmin = 5.284739229024943
+			xmax = 5.577210884353741
+			text = ""
+		intervals [11]:
+			xmin = 5.577210884353741
+			xmax = 5.903265306122449
+			text = "всего"
+		intervals [12]:
+			xmin = 5.903265306122449
+			xmax = 6.249092970521542
+			text = "этого"
+		intervals [13]:
+			xmin = 6.249092970521542
+			xmax = 6.425283446712018
+			text = ""
+		intervals [14]:
+			xmin = 6.425283446712018
+			xmax = 6.954149659863946
+			text = "ооу"
+		intervals [15]:
+			xmin = 6.954149659863946
+			xmax = 7.924943310657596
+			text = ""
+		intervals [16]:
+			xmin = 7.924943310657596
+			xmax = 8.174399092970521
+			text = "все"
+		intervals [17]:
+			xmin = 8.174399092970521
+			xmax = 8.371927437641723
+			text = "всей"
+		intervals [18]:
+			xmin = 8.371927437641723
+			xmax = 8.525646258503402
+			text = "этой"
+		intervals [19]:
+			xmin = 8.525646258503402
+			xmax = 9.0440589569161
+			text = "системы"
+	item [1]
+		class = "IntervalTier"
+		name = "SR"
+		xmin = 0.7806349206349207
+		xmax = 9.04408163265306
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.7806349206349207
+			xmax = 1.5647619047619048
+			text = "repair:repetition"
+		intervals [2]:
+			xmin = 1.5647619047619048
+			xmax = 1.8515192743764173
+			text = ""
+		intervals [3]:
+			xmin = 1.8515192743764173
+			xmax = 2.9627664399092972
+			text = "discourse:et"
+		intervals [4]:
+			xmin = 2.9627664399092972
+			xmax = 3.7525396825396826
+			text = ""
+		intervals [5]:
+			xmin = 3.7525396825396826
+			xmax = 4.159342403628118
+			text = "reparandum:repetition"
+		intervals [6]:
+			xmin = 4.159342403628118
+			xmax = 5.577210884353741
+			text = ""
+		intervals [7]:
+			xmin = 5.577210884353741
+			xmax = 6.249092970521542
+			text = "repair:apprepair"
+		intervals [8]:
+			xmin = 6.249092970521542
+			xmax = 6.423356009070295
+			text = ""
+		intervals [9]:
+			xmin = 6.423356009070295
+			xmax = 6.954149659863946
+			text = "discourse:et"
+		intervals [10]:
+			xmin = 6.954149659863946
+			xmax = 7.923106575963719
+			text = ""
+		intervals [11]:
+			xmin = 7.923106575963719
+			xmax = 8.171791383219954
+			text = "repair:pwrepetition"
+		intervals [12]:
+			xmin = 8.171791383219954
+			xmax = 9.0440589569161
+			text = "reparandum:apprepair"
+	item [1]
+		class = "IntervalTier"
+		name = "FRS"
+		xmin = 0.0
+		xmax = 9.04408163265306
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 9.04408163265306
+			text = ""

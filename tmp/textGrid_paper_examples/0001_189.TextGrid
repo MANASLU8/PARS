@@ -1,0 +1,210 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 8.2300625
+tiers? <exists>
+size = 5
+item []:
+	item [1]
+		class = "IntervalTier"
+		name = "PSENT"
+		xmin = 0.0
+		xmax = 8.2300625
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 8.2300625
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "EDU"
+		xmin = 0.0013125
+		xmax = 8.2300625
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0013125
+			xmax = 3.252375
+			text = "0"
+		intervals [2]:
+			xmin = 3.252375
+			xmax = 3.3400625
+			text = ""
+		intervals [3]:
+			xmin = 3.3400625
+			xmax = 4.4114375
+			text = "1"
+		intervals [4]:
+			xmin = 4.4114375
+			xmax = 6.24075
+			text = "2"
+		intervals [5]:
+			xmin = 6.24075
+			xmax = 8.22725
+			text = "3"
+	item [1]
+		class = "IntervalTier"
+		name = "WF"
+		xmin = 0.0013125
+		xmax = 8.2300625
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.0013125
+			xmax = 0.316125
+			text = "ээ"
+		intervals [2]:
+			xmin = 0.316125
+			xmax = 0.5275625
+			text = "уже"
+		intervals [3]:
+			xmin = 0.5275625
+			xmax = 0.6605625
+			text = "не"
+		intervals [4]:
+			xmin = 0.6605625
+			xmax = 1.0054375
+			text = "надо"
+		intervals [5]:
+			xmin = 1.0054375
+			xmax = 1.397375
+			text = ""
+		intervals [6]:
+			xmin = 1.397375
+			xmax = 2.15975
+			text = "пользователям"
+		intervals [7]:
+			xmin = 2.15975
+			xmax = 2.2439375
+			text = ""
+		intervals [8]:
+			xmin = 2.2439375
+			xmax = 2.646
+			text = "мм"
+		intervals [9]:
+			xmin = 2.646
+			xmax = 3.252375
+			text = "доказывать"
+		intervals [10]:
+			xmin = 3.252375
+			xmax = 3.3400625
+			text = ""
+		intervals [11]:
+			xmin = 3.3400625
+			xmax = 3.5385625
+			text = "ну"
+		intervals [12]:
+			xmin = 3.5385625
+			xmax = 4.09575
+			text = "показывать"
+		intervals [13]:
+			xmin = 4.09575
+			xmax = 4.4114375
+			text = "объяснять"
+		intervals [14]:
+			xmin = 4.4114375
+			xmax = 4.5410625
+			text = "что"
+		intervals [15]:
+			xmin = 4.5410625
+			xmax = 5.002625
+			text = "крестик"
+		intervals [16]:
+			xmin = 5.002625
+			xmax = 5.153
+			text = "это"
+		intervals [17]:
+			xmin = 5.153
+			xmax = 5.2918125
+			text = "вот"
+		intervals [18]:
+			xmin = 5.2918125
+			xmax = 5.5041875
+			text = ""
+		intervals [19]:
+			xmin = 5.5041875
+			xmax = 5.774125
+			text = "экран"
+		intervals [20]:
+			xmin = 5.774125
+			xmax = 6.24075
+			text = "закроет"
+		intervals [21]:
+			xmin = 6.24075
+			xmax = 6.4708125
+			text = "что"
+		intervals [22]:
+			xmin = 6.4708125
+			xmax = 6.999375
+			text = "фотоаппарат"
+		intervals [23]:
+			xmin = 6.999375
+			xmax = 7.416125
+			text = "зн"
+		intervals [24]:
+			xmin = 7.416125
+			xmax = 7.8361875
+			text = "откроет"
+		intervals [25]:
+			xmin = 7.8361875
+			xmax = 8.22725
+			text = "камеру"
+	item [1]
+		class = "IntervalTier"
+		name = "SR"
+		xmin = 2.646
+		xmax = 8.2300625
+		intervals: size = 7
+		intervals [1]:
+			xmin = 2.646
+			xmax = 3.252375
+			text = "repair:revision"
+		intervals [2]:
+			xmin = 3.252375
+			xmax = 3.3400625
+			text = ""
+		intervals [3]:
+			xmin = 3.3400625
+			xmax = 3.5385625
+			text = "discourse:et"
+		intervals [4]:
+			xmin = 3.5385625
+			xmax = 6.999375
+			text = "reparandum:revision"
+		intervals [5]:
+			xmin = 6.999375
+			xmax = 7.416125
+			text = "repair:apprepair"
+		intervals [6]:
+			xmin = 7.416125
+			xmax = 7.8349375
+			text = "reparandum:apprepair"
+		intervals [7]:
+			xmin = 7.8349375
+			xmax = 8.23
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "FRS"
+		xmin = 0.0
+		xmax = 8.2300625
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.3134375
+			text = "discourse:filler"
+		intervals [2]:
+			xmin = 0.3134375
+			xmax = 2.242625
+			text = ""
+		intervals [3]:
+			xmin = 2.242625
+			xmax = 2.646
+			text = "discourse:filler"
+		intervals [4]:
+			xmin = 2.646
+			xmax = 5.153
+			text = ""
+		intervals [5]:
+			xmin = 5.153
+			xmax = 5.2918125
+			text = "discourse:pfiller"
