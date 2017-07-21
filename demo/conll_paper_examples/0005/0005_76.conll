@@ -1,22 +1,21 @@
 #sentence_id = 76
-#sentence = шардинг это способ разбиения одной сущности , одной таблицы например если мы говорим о реляционных базах , на части 
+#sentence = шардинг это способ разбиения одной сущности одной таблицы например если мы говорим о реляционных базах на части 
 
 1	шардинг	ШАРДИНГ	NOUN	NOUN	_	3	nsubj	_	_
 2	это	ЭТО	PART	PART	_	3	expl	_	_
 3	способ	СПОСОБ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	0	root	_	_
 4	разбиения	РАЗБИЕНИЕ	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=NEUT|NUM=SING	3	nmod	_	_
 5	одной	ОДИН	NUM	NUM	CASE=GEN|GENDER=FEM|NUM=SING	6	amod	_	_
-6	сущности	СУЩНОСТЬ	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	4	nmod	_	_
-7	,	,	PUNCT	PUNCT	_	3	edu:border	_	_
-8	одной	ОДИН	NUM	NUM	CASE=GEN|GENDER=FEM|NUM=SING	9	amod	_	_
-9	таблицы	ТАБЛИЦА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	3	insertion	_	_
-10	например	НАПРИМЕР	ADV	ADV	_	9	parataxis	_	_
-11	если	ЕСЛИ	CONJ	CONJ	_	13	mark	_	_
-12	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	13	nsubj	_	_
-13	говорим	ГОВОРИТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|TRANSITIVITY=TRNS|VOICE=ACT	9	advcl	_	_
-14	о	О	ADP	ADP	_	16	case	_	_
-15	реляционных	РЕЛЯЦИОННЫЙ	ADJ	ADJ	CASE=LOC|NUM=PLUR	16	amod	_	_
-16	базах	БАЗА	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=FEM|NUM=PLUR	13	obl	_	_
-17	,	,	PUNCT	PUNCT	_	9	edu:border	_	_
-18	на	НА	ADP	ADP	_	19	case	_	_
-19	части	ЧАСТЬ	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=FEM|NUM=SING	4	advmod	_	_
+6	сущности	СУЩНОСТЬ	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	4	nmod	_	edu:boundary
+7	одной	ОДИН	NUM	NUM	CASE=GEN|GENDER=FEM|NUM=SING	8	amod	_	_
+8	таблицы	ТАБЛИЦА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=SING	3	insertion	_	_
+9	например	НАПРИМЕР	ADV	ADV	_	8	parataxis	_	_
+10	если	ЕСЛИ	CONJ	CONJ	_	12	mark	_	_
+11	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	12	nsubj	_	_
+12	говорим	ГОВОРИТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|VOICE=ACT	8	advcl	_	_
+13	о	О	ADP	ADP	_	15	case	_	_
+14	реляционных	РЕЛЯЦИОННЫЙ	ADJ	ADJ	CASE=LOC|GENDER=FEM|NUM=PLUR	15	amod	_	_
+15	базах	БАЗА	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=FEM|NUM=PLUR	12	obl	_	edu:boundary
+16	на	НА	ADP	ADP	_	17	case	_	_
+17	части	ЧАСТЬ	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=FEM|NUM=SING	4	nmod	_	_
+
