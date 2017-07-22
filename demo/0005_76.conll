@@ -12,7 +12,7 @@
 9	например	НАПРИМЕР	ADV	ADV	_	8	parataxis	_	_
 10	если	ЕСЛИ	CONJ	CONJ	_	12	mark	_	_
 11	мы	МЫ	PRON	PRON	CASE=NOM|NUM=PLUR	12	nsubj	_	_
-12	говорим	ГОВОРИТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|TENSE=PRES|VOICE=ACT	8	advcl	_	_
+12	говорим	ГОВОРИТЬ	VERB	VERB	ASP=IMPF|NUM=PLUR|PERSON=2|TENSE=PRES|VERBFORM=FIN|VOICE=ACT	8	advcl	_	_
 13	о	О	ADP	ADP	_	15	case	_	_
 14	реляционных	РЕЛЯЦИОННЫЙ	ADJ	ADJ	CASE=LOC|GENDER=FEM|NUM=PLUR	15	amod	_	_
 15	базах	БАЗА	NOUN	NOUN	ANIMACY=INAN|CASE=LOC|GENDER=FEM|NUM=PLUR	12	obl	_	edu:boundary

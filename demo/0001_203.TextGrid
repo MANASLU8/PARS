@@ -1,0 +1,154 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 4.9040625
+tiers? <exists>
+size = 5
+item []:
+	item [1]
+		class = "IntervalTier"
+		name = "PSENT"
+		xmin = 0.0
+		xmax = 4.9040625
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 4.9040625
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "EDU"
+		xmin = 0.0
+		xmax = 4.9040625
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.00825
+			text = ""
+		intervals [2]:
+			xmin = 0.00825
+			xmax = 2.1048125
+			text = "0"
+		intervals [3]:
+			xmin = 2.1048125
+			xmax = 4.904
+			text = "1"
+		intervals [4]:
+			xmin = 4.904
+			xmax = 4.9040625
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "WF"
+		xmin = 0.0
+		xmax = 4.9040625
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.00825
+			text = ""
+		intervals [2]:
+			xmin = 0.00825
+			xmax = 0.1581875
+			text = "и"
+		intervals [3]:
+			xmin = 0.1581875
+			xmax = 0.91725
+			text = "сделать"
+		intervals [4]:
+			xmin = 0.91725
+			xmax = 1.10525
+			text = "такой"
+		intervals [5]:
+			xmin = 1.10525
+			xmax = 1.4558125
+			text = "продукт"
+		intervals [6]:
+			xmin = 1.4558125
+			xmax = 2.1048125
+			text = "чтобы"
+		intervals [7]:
+			xmin = 2.1048125
+			xmax = 2.744625
+			text = "ээ"
+		intervals [8]:
+			xmin = 2.744625
+			xmax = 3.047875
+			text = "эти"
+		intervals [9]:
+			xmin = 3.047875
+			xmax = 3.247625
+			text = "вот"
+		intervals [10]:
+			xmin = 3.247625
+			xmax = 3.8289375
+			text = "элементы"
+		intervals [11]:
+			xmin = 3.8289375
+			xmax = 3.98975
+			text = "все"
+		intervals [12]:
+			xmin = 3.98975
+			xmax = 4.0813125
+			text = "эти"
+		intervals [13]:
+			xmin = 4.0813125
+			xmax = 4.904
+			text = "анимировались"
+		intervals [14]:
+			xmin = 4.904
+			xmax = 4.9040625
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "SR"
+		xmin = 0.0
+		xmax = 4.9040625
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2.744625
+			text = ""
+		intervals [2]:
+			xmin = 2.744625
+			xmax = 3.047875
+			text = "repair:repetition"
+		intervals [3]:
+			xmin = 3.047875
+			xmax = 3.98975
+			text = ""
+		intervals [4]:
+			xmin = 3.98975
+			xmax = 4.0813125
+			text = "reparandum:repetition"
+		intervals [5]:
+			xmin = 4.0813125
+			xmax = 4.9040625
+			text = ""
+	item [1]
+		class = "IntervalTier"
+		name = "FRS"
+		xmin = 0.0
+		xmax = 4.9040625
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2.1026875
+			text = ""
+		intervals [2]:
+			xmin = 2.1026875
+			xmax = 2.744625
+			text = "discourse:filler"
+		intervals [3]:
+			xmin = 2.744625
+			xmax = 3.047875
+			text = ""
+		intervals [4]:
+			xmin = 3.047875
+			xmax = 3.244875
+			text = "discourse:pfiller"
+		intervals [5]:
+			xmin = 3.244875
+			xmax = 4.9040625
+			text = ""
