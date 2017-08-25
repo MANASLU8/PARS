@@ -4,19 +4,18 @@ __author__ = 'Alexander'
 
 import os, codecs, re
 import tkinter.filedialog as filedialog
-import spon_lib.WaveAssistanFuncs.text_assistant_reader as text_reader
+import spon_lib.WaveAssistantFuncs.text_assistant_reader as text_reader
 
 import spon_lib.TextGridReader as text_grid
 
 
-import spon_lib.WaveAssistanFuncs.SegReader as SegReader
-import spon_lib.WaveAssistanFuncs.SegWriter as SegWriter
+import spon_lib.WaveAssistantFuncs.SegReader as SegReader
+import spon_lib.WaveAssistantFuncs.SegWriter as SegWriter
 import tkinter as tk
 
 import tkinter.messagebox as tkMessageBox
 def test_checker():
     ext_of_labelled_seg = "seg_B1"
-
 
     def one_file(event):
         input_dirname = read_param_file()
