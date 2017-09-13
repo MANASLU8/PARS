@@ -416,7 +416,7 @@ def interval_checker(input_name):
             except Exception as err:
                 print("error -> {0}".format(ind_ede))
 
-            if len(ede_frm_array)-1 == len(ede_array):
+        if len(ede_frm_array)-1 == len(ede_array):
                 psent_boundaries = []
                 ind_sentence = 0
                 for frm_sentence, to_sentence in sentence_array:
