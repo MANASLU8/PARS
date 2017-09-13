@@ -1,0 +1,25 @@
+#sentence_id = 189
+#sentence = ээ уже не надо пользователям мм доказывать ну показывать объяснять что крестик это вот экран закроет что фотоаппарат зн откроет камеру
+
+1	ээ	ЭЭ	INTJ	INTJ	_	4	discourse:filler	_	_
+2	уже	УЖЕ	ADV	ADV	_	4	advmod	_	_
+3	не	НЕ	PART	PART	_	4	neg	_	_
+4	надо	НАДО	ADV	ADV	_	0	root	_	_
+5	пользователям	ПОЛЬЗОВАТЕЛЬ	NOUN	NOUN	ANIMACY=ANIM|CASE=DAT|GENDER=MASC|NUM=PLUR	9	iobj	_	_
+6	мм	ММ	INTJ	INTJ	_	7	discourse:filler	_	_
+7	доказывать	ДОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|VERBFORM=INF	9	reparandum:revision	_	edu:boundary
+8	ну	НУ	PART	PART	_	9	discourse:et	_	_
+9	показывать	ПОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|VERBFORM=INF	4	xcomp	_	_
+10	объяснять	ОБЪЯСНЯТЬ	VERB	VERB	ASP=IMPF|VERBFORM=INF	9	conj	_	edu:boundary
+11	что	ЧТО	CONJ	CONJ	_	16	mark	_	_
+12	крестик	КРЕСТИК	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	16	nsubj	_	_
+13	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	16	expl	_	_
+14	вот	ВОТ	PART	PART	_	13	discourse:pfiller	_	_
+15	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	16	obj	_	_
+16	закроет	ЗАКРЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|PERSON=3|TENSE=FUT|VERBFORM=FIN|VOICE=ACT	10	ccomp	_	edu:boundary
+17	что	ЧТО	CONJ	CONJ	_	20	mark	_	_
+18	фотоаппарат	ФОТОАППАРАТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	20	nsubj	_	_
+19	зн	-	X	X	_	20	reparandum:frstart	_	_
+20	откроет	ОТКРЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|PERSON=3|TENSE=FUT|VERBFORM=FIN|VOICE=ACT	16	conj	_	_
+21	камеру	КАМЕРА	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	20	obj	_	_
+

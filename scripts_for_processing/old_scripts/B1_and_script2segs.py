@@ -3,13 +3,13 @@
 __author__ = "Alexander Shipilo"
 import os
 import tkinter.filedialog as filedialog
-import spon_lib.WaveAssistanFuncs.text_assistant_reader as text_reader
+import spon_lib.WaveAssistantFuncs.text_assistant_reader as text_reader
 import tkinter as tk
 
 import tkinter.messagebox as tkMessageBox
 
-import spon_lib.WaveAssistanFuncs.SegReader as SegReader
-import spon_lib.WaveAssistanFuncs.SegWriter as SegWriter
+import spon_lib.WaveAssistantFuncs.SegReader as SegReader
+import spon_lib.WaveAssistantFuncs.SegWriter as SegWriter
 
 def main():
     filename = r"D:\GIT\DemoCorpus\tests\0005_129.seg_B1"
@@ -17,43 +17,43 @@ def main():
     to_all_seg_levels(filename)
 
 def to_all_seg_levels(filename):
-    try:
-
-        interval_name = "seg_B1"
-        begin_symbol = "s"
-        seg_name = os.path.splitext(filename)[0] + ".seg_B1"
-        txt_name = os.path.splitext(filename)[0] + ".txt"
-
-
-        seg_ede = os.path.splitext(filename)[0] + ".seg_R1"
-        seg_words = os.path.splitext(filename)[0] + ".seg_B2"
-
-
-        seg_errors = os.path.splitext(filename)[0] + ".seg_R2"
-        seg_base_error = os.path.splitext(filename)[0] + ".seg_R3"
-
-
-
         try:
-            ede_array = [elem for elem in text_reader.read_txt(txt_name).split("\n") if elem.strip() != ""]
+
+            interval_name = "seg_B1"
+            begin_symbol = "s"
+            seg_name = os.path.splitext(filename)[0] + ".seg_B1"
+            txt_name = os.path.splitext(filename)[0] + ".txt"
+
+
+            seg_ede = os.path.splitext(filename)[0] + ".seg_R1"
+            seg_words = os.path.splitext(filename)[0] + ".seg_B2"
+
+
+            seg_errors = os.path.splitext(filename)[0] + ".seg_R2"
+            seg_base_error = os.path.splitext(filename)[0] + ".seg_R3"
+
+
+
+            try:
+                ede_array = [elem for elem in text_reader.read_txt(txt_name).split("\n") if elem.strip() != ""]
+            except Exception as err:
+                print("Вероятнее всего файл с расшифровкой \"txt\" не находится в папке с сег-файлом ")
+                print("Имя требуемого файла с расшифровкой: {0}".format(txt_name))
+                return
+            if not os.path.isfile(seg_name):
+                tkMessageBox.showerror("Результат", "Ошибка. Смотрите комментарий в консоли")
+                print("Нет файла: {0}".format(seg_name))
+                print("Возможно Вы либо не поставили галочку \"каждый тип меток в отдельный файл\"")
+                print("Либо поставили, но не пересохранили результат!!!")
+                print("Чтобы пересохранить результат")
+                print("- откройте речевой сигнал, который вы размечали")
+                print("- поставьте в любом месте файла метку на любом уровне")
+                print("- удалите эту вновь созданную метку")
+                print("- закройте WaveAssistant")
+                print("- проверьте файл этой программой еще раз")
+                return
         except Exception as err:
-            print("Вероятнее всего файл с расшифровкой \"txt\" не находится в папке с сег-файлом ")
-            print("Имя требуемого файла с расшифровкой: {0}".format(txt_name))
-            return
-        if not os.path.isfile(seg_name):
-            tkMessageBox.showerror("Результат", "Ошибка. Смотрите комментарий в консоли")
-            print("Нет файла: {0}".format(seg_name))
-            print("Возможно Вы либо не поставили галочку \"каждый тип меток в отдельный файл\"")
-            print("Либо поставили, но не пересохранили результат!!!")
-            print("Чтобы пересохранить результат")
-            print("- откройте речевой сигнал, который вы размечали")
-            print("- поставьте в любом месте файла метку на любом уровне")
-            print("- удалите эту вновь созданную метку")
-            print("- закройте WaveAssistant")
-            print("- проверьте файл этой программой еще раз")
-            return
-    except Exception as err:
-        print("to_all_seg_levels -> {0}".format(err))
+            print("to_all_seg_levels -> {0}".format(err))
 
 
         seg = SegReader.readSeg(seg_name)
@@ -119,8 +119,10 @@ def to_all_seg_levels(filename):
         #Осталось записать в сеги результат
         SegWriter.write_seg(seg_words, SegWriter.SegToPer(words_level), sample_rate = seg["sample_rate"])
         SegWriter.write_seg(seg_ede, SegWriter.SegToPer(edes_level), sample_rate = seg["sample_rate"])
-        SegWriter.write_seg(seg_errors, SegWriter.SegToPer(error_n_intervals), sample_rate = seg["sample_rate"])
-        SegWriter.write_seg(seg_base_error, ede_base_error, sample_rate = seg["sample_rate"] )
+        if len(error_n_intervals):
+            SegWriter.write_seg(seg_errors, SegWriter.SegToPer(error_n_intervals), sample_rate = seg["sample_rate"])
+        if len(ede_base_error):
+            SegWriter.write_seg(seg_base_error, ede_base_error, sample_rate = seg["sample_rate"] )
 
 def read_conll_for_repairs(conll_name):
     try:

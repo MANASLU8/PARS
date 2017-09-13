@@ -19,6 +19,8 @@ def read_txt(f_name):
                 continue
         if text.startswith("Sentence="):
             text = text[len("Sentence="):]
+
+        text = text.replace("\ufeff", "")
         if flag:
             return text
         print("Impossible to read file \"{0}\" with appropriate encoding".format(f_name))
