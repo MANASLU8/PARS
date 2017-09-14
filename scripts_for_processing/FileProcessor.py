@@ -4,21 +4,20 @@ __author__ = 'Alexander'
 
 import os, codecs, re
 import tkinter.filedialog as filedialog
-import spon_lib.WaveAssistanFuncs.text_assistant_reader as text_reader
+import spon_lib.WaveAssistantFuncs.text_assistant_reader as text_reader
 
 import spon_lib.TextGridReader as text_grid
+import spon_lib.conll_worker as conll_worker
 
-
-import spon_lib.WaveAssistanFuncs.SegReader as SegReader
-import spon_lib.WaveAssistanFuncs.SegWriter as SegWriter
+import spon_lib.WaveAssistantFuncs.SegReader as SegReader
+import spon_lib.WaveAssistantFuncs.SegWriter as SegWriter
 import tkinter as tk
 
 import tkinter.messagebox as tkMessageBox
 def test_checker():
     ext_of_labelled_seg = "seg_B1"
 
-
-    def one_file(event):
+    def one_file(event, path_ed):
         input_dirname = read_param_file()
         seg_filename = filedialog.askopenfilename(initialdir = input_dirname)
         #seg_name_for_test = os.path.join(os.path.dirname(__file__), "0000_Путинцева", "0000.seg_{0}".format(ext_of_labelled_seg))
@@ -28,7 +27,15 @@ def test_checker():
 
         input_dirname = os.path.dirname(seg_filename)
         save_param_file(input_dirname)
-
+        path_ed.delete(0, tk.END)
+        path_ed.insert(0, seg_filename)
+        interval_checker(seg_filename)
+        tkMessageBox.showinfo("Результат", "Файл обработан")
+    def process_again(event, path_ed):
+        seg_filename = str(path_ed.get())
+        if not os.path.isfile(seg_filename):
+            tkMessageBox.showerror("Ошибка", "Плохое имя файла в окне ввода: {0}".format(seg_filename))
+            return
         interval_checker(seg_filename)
         tkMessageBox.showinfo("Результат", "Файл обработан")
     def one_directory(event):
@@ -63,21 +70,55 @@ def test_checker():
 
         interval_checker_grid(seg_filename)
         tkMessageBox.showinfo("Результат", "Файл обработан")
+    def add_repairs_to(m):
+        input_dirname = read_param_file()
+        seg_filename = filedialog.askopenfilename(initialdir = input_dirname)
+        if not os.path.isfile(seg_filename):
+            tkMessageBox.showerror("Ошибка", "Вы не выбрали файл")
+            return
+        input_dirname = os.path.dirname(seg_filename)
+        save_param_file(input_dirname)
+
+        FRS, SR = read_repairs_list()
+        add_speech_repairs(seg_filename, FRS, SR)
+        tkMessageBox.showinfo("Результат", "Файл обработан")
     root = tk.Tk()
     root.title("Проверка разметки")
     btn1 = tk.Button(root, text="Выбрать файл")
     #btn1.config( height = 20, width = 20 )
     btn2 = tk.Button(root, text="Выбрать директорию")
     btn3 = tk.Button(root, text="Выбрать TextGrid")
-    btn1.bind("<Button-1>", one_file)
+    btn5 = tk.Button(root, text = "Добавить речевые сбои")
+    path_edit = tk.Entry(root)
+    path_edit.delete(0, tk.END)
+    path_edit.insert(0, "Привет!")
+    btn4 = tk.Button(root, text="Обработать файл из окна")
+    btn1.bind("<Button-1>", lambda m: one_file(m, path_edit))
     btn2.bind("<Button-1>", one_directory)
     btn3.bind("<Button-1>", one_grid)
-    btn1.grid(row=0, column=0, sticky=tk.E+tk.W)
-    btn2.grid(row=1, column=0, sticky=tk.E)
-    btn3.grid(row=2, column=0, sticky=tk.E+tk.W)
-    root.minsize(200, 55)
-    root.maxsize(200, 70)
+    btn4.bind("<Button-1>", lambda m: process_again(m, path_edit))
+    btn5.bind("<Button-1>", lambda m: add_repairs_to(m))
+    path_edit.grid(row=0, column = 0, columnspan = 2, sticky = tk.N+tk.E+tk.S+tk.W)
+    btn1.grid(row=1, column=0, sticky=tk.E+tk.W)
+    btn4.grid(row=1, column=1, sticky=tk.E+tk.W)
+    btn2.grid(row=2, column=0, sticky=tk.E)
+    btn3.grid(row=3, column=0, sticky=tk.E+tk.W)
+    btn5.grid(row=4, column=0, columnspan = 2, sticky=tk.E+tk.W)
+    root.minsize(300, 75)
+    root.maxsize(300, 170)
     root.mainloop()
+def read_repairs_list():
+    try:
+        sr = []
+        frs = []
+        filename = os.path.join(os.path.dirname(__file__), "speech_repairs_list.txt")
+        with open(filename, "rb") as fh:
+            splt = fh.read(os.path.getsize(filename)).decode("UTF-8").split("SR:")
+            frs = [el.strip() for el in splt[0].replace("FRS:", "").strip().split("\n") if el.strip() != ""]
+            sr = [el.strip() for el in splt[1].strip().split("\n") if el.strip() != ""]
+        return frs, sr
+    except Exception as err:
+        print("read_repairs_list -> {0}".format(err))
 def save_param_file(input_dir):
         try:
             with codecs.open(os.path.join(os.path.dirname(__file__), "checker.ini"), "w", encoding="UTF-8") as wh:
@@ -284,11 +325,25 @@ def interval_checker(input_name):
 
         seg_ede = os.path.splitext(input_name)[0] + ".seg_R1"
         seg_words = os.path.splitext(input_name)[0] + ".seg_B2"
+        seg_sentences = os.path.splitext(input_name)[0] + ".seg_R2"
         seg_errors = os.path.splitext(input_name)[0] + ".seg_R2"
         seg_base_error = os.path.splitext(input_name)[0] + ".seg_R3"
 
         try:
-            ede_array = [elem for elem in text_reader.read_txt(txt_name).split("\n") if elem.strip() != ""]
+            ede_splt = text_reader.read_txt(txt_name).split("\n")
+            ede_array = []
+            sentence_array = []
+            prev_begin_sentence = 0
+            cur_ind_ede = 0
+            for cur_ede in ede_splt:
+                if cur_ede.strip() == "":
+                    sentence_array.append([prev_begin_sentence, cur_ind_ede])
+                    prev_begin_sentence = cur_ind_ede
+                else:
+                    ede_array.append(cur_ede.strip())
+                    cur_ind_ede += 1
+            sentence_array[-1][1] = len(ede_array)-1
+            #sentence_array.append([prev_begin_sentence, cur_ind_ede-1])
         except Exception as err:
             print("Вероятнее всего файл с расшифровкой \"txt\" не находится в папке с сег-файлом ")
             print("Имя требуемого файла с расшифровкой: {0}".format(txt_name))
@@ -318,53 +373,136 @@ def interval_checker(input_name):
         edes_level = []
         error_n_intervals = []
         ede_base_error = []
-        if len(ede_frm_array) != len(ede_array):
+        #так как одна метка специально левая
+        if len(ede_frm_array)-1 != len(ede_array):
             ede_base_error = [{"frm": 0, "nm": "Количество ЭДЕ в расшифровке и сеге не совпадает. Проверьте количество меток \"s\""}]
         else:
             ede_base_error = [{"frm": 0, "nm": "Ok"}]
 
 
         for i in range(1, len(ede_frm_array)):
-            if i == len(ede_frm_array)-1:
-                a = 1
-            frm = ede_frm_array[i - 1]
-            t = ede_frm_array[i]
-            if i == len(ede_frm_array)-1:
-                t = len(seg["periods"][interval_name])
+            try:
+                if i == len(ede_frm_array)-1:
+                    a = 1
+                frm = ede_frm_array[i - 1]
+                t = ede_frm_array[i]
+                if i == len(ede_frm_array)-1:
+                    t = len(seg["periods"][interval_name])
 
-            cur_ede_intervals = [el for el in seg["periods"][interval_name][frm:t] if el["nm"] != "g"]
+                cur_ede_intervals = [el for el in seg["periods"][interval_name][frm:t] if el["nm"] != "g"]
 
-            cur_ede_frm_txt = [el for el in ede_array[ind_ede].strip().split(" ") if el.strip() != "" and not el.strip().startswith("!")]
+                cur_ede_frm_txt = [el for el in ede_array[ind_ede].strip().split(" ") if el.strip() != "" and not el.strip().startswith("!")]
 
-            if len(cur_ede_frm_txt) == len(cur_ede_intervals):
-                for j in range(len(cur_ede_intervals)):
-                    words_level.append({
-                        "frm": cur_ede_intervals[j]["frm"],
-                        "to": cur_ede_intervals[j]["to"],
-                        "nm": cur_ede_frm_txt[j]
+                if len(cur_ede_frm_txt) == len(cur_ede_intervals):
+                    for j in range(len(cur_ede_intervals)):
+                        words_level.append({
+                            "frm": cur_ede_intervals[j]["frm"],
+                            "to": cur_ede_intervals[j]["to"],
+                            "nm": cur_ede_frm_txt[j]
+                        })
+                    edes_level.append({
+                        "frm": cur_ede_intervals[0]["frm"],
+                        "to": cur_ede_intervals[-1]["to"],
+                        "nm": "{0}".format(ind_ede),
                     })
-                edes_level.append({
-                    "frm": cur_ede_intervals[0]["frm"],
-                    "to": cur_ede_intervals[-1]["to"],
-                    "nm": "{0}".format(ind_ede),
-                })
-            else:
-                error_n_intervals.append({
-                    "frm": cur_ede_intervals[0]["frm"],
-                    "to": cur_ede_intervals[0]["to"],
-                    "nm": "{0}. Не совпадает кол-во интервалов со словами".format(ind_ede),
-                })
-            ind_ede += 1
-            a = 1
+                else:
+                    error_n_intervals.append({
+                        "frm": cur_ede_intervals[0]["frm"],
+                        "to": cur_ede_intervals[-1]["to"],
+                        "nm": "{0}. {1} слов под {2} интервалов".format(ind_ede, len(cur_ede_frm_txt), len(cur_ede_intervals)),
+                    })
+                ind_ede += 1
 
+            except Exception as err:
+                print("error -> {0}".format(ind_ede))
+
+        if len(ede_frm_array)-1 == len(ede_array):
+                psent_boundaries = []
+                ind_sentence = 0
+                for frm_sentence, to_sentence in sentence_array:
+                    try:
+                        if frm_sentence == to_sentence or to_sentence == len(ede_array)-1:
+                            psent_boundaries.append({"frm": edes_level[frm_sentence]["frm"], "nm": ind_sentence, "to": edes_level[to_sentence]["to"]})
+                        else:
+                            psent_boundaries.append({"frm": edes_level[frm_sentence]["frm"], "nm": ind_sentence, "to": edes_level[to_sentence]["frm"]})
+
+                        ind_sentence += 1
+                    except Exception as err:
+                        print(err)
+                psentences = SegWriter.SegToPer(psent_boundaries)
+                SegWriter.write_seg(seg_sentences, psentences, sample_rate = seg["sample_rate"])
 
         #Осталось записать в сеги результат
         SegWriter.write_seg(seg_words, SegWriter.SegToPer(words_level), sample_rate = seg["sample_rate"])
         SegWriter.write_seg(seg_ede, SegWriter.SegToPer(edes_level), sample_rate = seg["sample_rate"])
-        SegWriter.write_seg(seg_errors, SegWriter.SegToPer(error_n_intervals), sample_rate = seg["sample_rate"])
+        if len(error_n_intervals):
+            SegWriter.write_seg(seg_errors, SegWriter.SegToPer(error_n_intervals), sample_rate = seg["sample_rate"])
         SegWriter.write_seg(seg_base_error, ede_base_error, sample_rate = seg["sample_rate"] )
+
 
     except Exception as err:
         print("interval_checker -> {0}".format(err))
+
+
+def add_speech_repairs(f_name, FRS, SR):
+    try:
+        FRS_level = []
+        SR_level = []
+
+        seg_words = os.path.splitext(f_name)[0] + ".seg_B2"
+        conll_name = os.path.splitext(f_name)[0] + ".conll"
+        log_name = os.path.splitext(f_name)[0] + ".log"
+
+        seg_FRS = os.path.splitext(f_name)[0] + ".seg_Y2"
+        seg_SR = os.path.splitext(f_name)[0] + ".seg_G3"
+        log_data = []
+        if not os.path.isfile(seg_words) or not os.path.isfile(conll_name):
+            if not os.path.isfile(seg_words):
+                print("Нет сега со словами -> \"{0}\"".format(seg_words))
+            if not os.path.isfile(conll_name):
+                print("Нет сега со словами -> \"{0}\"".format(conll_name))
+            return
+
+        seg = SegReader.readSeg(seg_words, encoding="UTF-8")
+        SegReader.SegToPer(seg)
+
+        seg_B2 = [el for el in seg["periods"]["seg_B2"] if el["nm"] != ""]
+        conll_data = conll_worker.read_conll(conll_name)
+
+        if len(seg_B2) != len(conll_data):
+            log_data.append("Предупреждение. Не совпадает количество слов в конлл и в разметке. Брак!")
+
+        for i in range(len(seg_B2)):
+            try:
+                if seg_B2[i]["nm"] != conll_data[i][0]:
+                    log_data.append("Не совпадает слово в конлл и разметке. В разметке время -> {0} слово -> {1} conll -> {2}".format(
+                        round(1000*(seg_B2[i]["frm"]/seg["sample_rate"])),
+                        seg_B2[i]["nm"],
+                        conll_data[i][0])
+                    )
+                if conll_data[i][1] in FRS:
+                    FRS_level.append({
+                        "nm": conll_data[i][1],
+                        "frm": seg_B2[i]["frm"],
+                        "to": seg_B2[i]["to"]
+                    })
+                if conll_data[i][1] in SR:
+                    SR_level.append({
+                        "nm": conll_data[i][1],
+                        "frm": seg_B2[i]["frm"],
+                        "to": seg_B2[i]["to"]
+                    })
+            except Exception as err:
+                log_data.append("i -> {0} err -> {1}".format(err))
+
+        if len(FRS_level):
+            SegWriter.write_seg(seg_FRS, SegWriter.SegToPer(FRS_level), sample_rate=seg["sample_rate"], n_channel=seg["n_channel"], encoding="UTF-8")
+        if len(SR_level):
+            SegWriter.write_seg(seg_SR, SegWriter.SegToPer(SR_level), sample_rate=seg["sample_rate"], n_channel=seg["n_channel"], encoding="UTF-8")
+        a = 1
+
+        print("\n".join(log_data))
+    except Exception as err:
+        print("add_speech_repairs -> {0}".format(err))
 if __name__ == '__main__':
     test_checker()

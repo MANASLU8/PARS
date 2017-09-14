@@ -1,7 +1,7 @@
 ћаппинг уровней wave assistant -> praat
 WA_level	tags_WA_level	Praat_level
 B	s,g	wbound
-none	none	PSENT 	#границы предложений из текстовки
+none	none	PSENT 	R2 (если есть ошибки в разметке, то на этом уровне ошибки в разметке)#границы предложений из текстовки
 R1	integer	EDU
 B2	char	WF
 Y2	discourse:filler,discourse:pfiller,discourse:strfiller	FRS
