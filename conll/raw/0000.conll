@@ -134,85 +134,85 @@
 14	эти	этот	DET	DET	Case=Nom|Number=Plur	15	amod	_	_
 15	штучки	штучка	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
 
-1	и	и	CCONJ	CCONJ	_	8	cc	_	_
-2	вот	вот	PART	PART	_	8	advmod	_	_
-3	недавно	недавно	ADV	ADV	Degree=Pos	8	nsubj	_	_
-4	буквально	буквально	ADV	ADV	Degree=Pos	3	nmod	_	_
-5	вчера	вчера	ADV	ADV	Degree=Pos	3	nmod	_	_
-6	кажется	кажется	ADV	ADV	_	8	advmod	_	_
-7	уберто	уберто	PNOUN	PNOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+1	и	и	CCONJ	CCONJ	_	8	discourse	_	_
+2	вот	вот	PART	PART	_	8	discourse	_	_
+3	недавно	недавно	ADV	ADV	Degree=Pos	8	advmod	_	_
+4	буквально	буквально	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	вчера	вчера	ADV	ADV	Degree=Pos	8	parataxis	_	_
+6	кажется	кажется	ADV	ADV	_	5	discourse	_	_
+7	уберто	уберто	PNOUN	PNOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	показал	показать	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	видео	видео	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	obj	_	_
 
-1	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	advmod	_	_
-2	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nmod	_	_
-3	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	advmod	_	_
-4	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nmod	_	_
+1	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	discourse	_	_
+2	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	_
+3	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	_
+4	всё	все	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	_
 5	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 6	понял	понять	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 
-1	вот	вот	INTJ	INTJ	_	3	advmod	_	_
+1	вот	вот	INTJ	INTJ	_	3	discourse	_	_
 2	они	они	PRON	PRON	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 3	показали	показать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	интересную	интересный	ADJ	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	идею	идея	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-6	уже	уже	ADV	ADV	Degree=Pos	3	obl	_	_
+6	уже	уже	ADV	ADV	Degree=Pos	3	advmod	_	_
 
 1	он	он	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	вначале	вначале	ADV	ADV	Degree=Pos	3	advmod	_	_
 3	поиграет	поиграть	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-1	то	то	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	mark	_	_
+1	то	то	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	discourse:pfiller	_	_
 2	есть	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
-3	что	что	PRON	PRON	Case=Nom|Number=Sing	5	obl	_	_
-4	такое	такой	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
+3	что	что	PRON	PRON	Case=Nom|Number=Sing	5	nsubj	_	_
+4	такое	такой	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
 5	IOS7	IOS7	PNOUN	PNOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	сейчас	сейчас	ADV	ADV	Degree=Pos	5	advmod	_	_
 
 1	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	жесты	жест	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 3	новые	новый	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
-4	жесты	жест	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
-5	нн	нн	X	X	_	4	nmod	_	_
-6	ээ	ээ	PUNCT	PUNCT	_	4	punct	_	_
+4	жесты	жест	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	_
+5	нн	нн	X	X	_	4	repair	_	_
+6	ээ	ээ	INTJ	INTJ	_	4	discourse:filler	_	_
 
 1	у	у	ADP	ADP	_	2	case	_	_
 2	нас	мы	PRON	PRON	Case=Acc|Number=Plur|Person=1	6	obl	_	_
-3	ээ	ээ	PUNCT	PUNCT	_	2	nmod	_	_
+3	ээ	ээ	PUNCT	PUNCT	_	4	discourse:filler	_	_
 4	пользователи	пользователь	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
-5	ээ	ээ	PUNCT	PUNCT	_	4	nmod	_	_
+5	ээ	ээ	PUNCT	PUNCT	_	6	discourse:filler	_	_
 6	продвинулись	продвигаться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 
-1	ээ	ээ	PUNCT	PUNCT	_	4	punct	_	_
+1	ээ	ээ	INTJ	INTJ	_	4	discourse:filler	_	_
 2	у	у	ADP	ADP	_	3	case	_	_
-3	них	они	PRON	PRON	Case=Acc|Number=Plur|Person=3	1	nmod	_	_
+3	них	они	PRON	PRON	Case=Acc|Number=Plur|Person=3	4	obl	_	_
 4	есть	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	прогресс	прогресс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+5	прогресс	прогресс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 
-1	ээ	ээ	PUNCT	PUNCT	_	4	nsubj	_	_
-2	уже	уже	ADV	ADV	Degree=Pos	4	advmod	_	_
-3	не	не	PART	PART	_	4	advmod	_	_
-4	надо	надо	ADV	ADV	Degree=Pos	0	root	_	_
-5	пользователям	пользователь	NOUN	NOUN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
-6	мм	мм	INTJ	INTJ	_	5	nmod	_	_
-7	доказывать	доказывать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
-8	ну	ну	INTJ	INTJ	_	7	xcomp	_	_
-9	показывать	показывать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nmod	_	_
-10	объяснять	объяснять	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	16	obl	_	_
-11	что	что	SCONJ	SCONJ	_	12	iobj	_	_
-12	крестик	крестик	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
-13	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nmod	_	_
-14	вот	вот	PART	PART	_	16	advmod	_	_
-15	экран	экран	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
-16	закроет	закрывать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	nsubj	_	_
-17	что	что	SCONJ	SCONJ	_	16	mark	_	_
-18	фотоаппарат	фотоаппарат	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nsubj	_	_
-19	зн	зн	X	X	_	18	nmod	_	_
-20	откроет	открывать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	advcl	_	_
-21	камеру	камера	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+1	ээ	ЭЭ	INTJ	INTJ	_	4	discourse:filler	_	_
+2	уже	УЖЕ	ADV	ADV	_	4	advmod	_	_
+3	не	НЕ	PART	PART	_	4	neg	_	_
+4	надо	НАДО	ADV	ADV	_	0	root	_	_
+5	пользователям	ПОЛЬЗОВАТЕЛЬ	NOUN	NOUN	ANIMACY=ANIM|CASE=DAT|GENDER=MASC|NUM=PLUR	9	iobj	_	_
+6	мм	ММ	INTJ	INTJ	_	7	discourse:filler	_	_
+7	доказывать	ДОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|VERBFORM=INF	9	reparandum:revision	_	edu:boundary
+8	ну	НУ	PART	PART	_	9	discourse:et	_	_
+9	показывать	ПОКАЗЫВАТЬ	VERB	VERB	ASP=IMPF|VERBFORM=INF	4	xcomp	_	_
+10	объяснять	ОБЪЯСНЯТЬ	VERB	VERB	ASP=IMPF|VERBFORM=INF	9	conj	_	edu:boundary
+11	что	ЧТО	CONJ	CONJ	_	16	mark	_	_
+12	крестик	КРЕСТИК	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	16	nsubj	_	_
+13	это	ЭТО	PRON	PRON	CASE=ACC|GENDER=NEUT|NUM=SING	16	expl	_	_
+14	вот	ВОТ	PART	PART	_	13	discourse:pfiller	_	_
+15	экран	ЭКРАН	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	16	obj	_	_
+16	закроет	ЗАКРЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|PERSON=3|TENSE=FUT|VERBFORM=FIN|VOICE=ACT	10	ccomp	_	edu:boundary
+17	что	ЧТО	CONJ	CONJ	_	20	mark	_	_
+18	фотоаппарат	ФОТОАППАРАТ	NOUN	NOUN	ANIMACY=INAN|CASE=NOM|GENDER=MASC|NUM=SING	20	nsubj	_	_
+19	зн	-	X	X	_	20	reparandum:frstart	_	_
+20	откроет	ОТКРЫТЬ	VERB	VERB	ASP=PERF|NUM=SING|PERSON=3|TENSE=FUT|VERBFORM=FIN|VOICE=ACT	16	conj	_	_
+21	камеру	КАМЕРА	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=SING	20	obj	_	_
 
 1	они	они	PRON	PRON	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
-2	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	obj	_	_
 3	уже	уже	ADV	ADV	Degree=Pos	4	advmod	_	_
 4	знают	знать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
@@ -244,16 +244,16 @@
 
 1	вот	вот	PART	PART	_	0	root	_	_
 
-1	ещё	еще	ADV	ADV	Degree=Pos	3	advmod	_	_
-2	прикольно	прикольно	ADV	ADV	Degree=Pos	3	advmod	_	_
+1	ещё	еще	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	прикольно	прикольно	ADV	ADV	Degree=Pos	4	advmod	_	_
 3	вам	вы	PRON	PRON	Case=Dat|Number=Plur|Person=2	4	iobj	_	_
-4	показать	показывать	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+4	показать	показывать	VERB	VERB	Aspect=Perf|Mode=Opt|VerbForm=Inf	0	root	_	_
 
-1	а	а	CCONJ	CCONJ	_	5	cc	_	_
+1	а	а	CCONJ	CCONJ	_	3	cc	_	_
 2	насколько	насколько	ADV	ADV	Degree=Pos	3	advmod	_	_
-3	правильный	правильный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
-4	этот	этот	DET	DET	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
-5	подход	подход	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	правильный	правильный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	этот	этот	DET	DET	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	подход	подход	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 
 1	мне	я	PRON	PRON	Case=Dat|Number=Sing|Person=1	2	iobj	_	_
 2	кажется	казаться	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	advmod	_	_
