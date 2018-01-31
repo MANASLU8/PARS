@@ -747,13 +747,13 @@
 11	могу	мочь	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 12	открыть	открыть	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
 
-1	ну	ну	PART	PART	_	2	advmod	_	_
-2	вот	вот	PART	PART	_	3	advmod	_	_
-3	чт	чт	X	X	_	4	amod	_	_
-4	чт	чт	X	X	_	7	iobj	_	_
-5	что-то	что-то	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
-6	похожее	похожий	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
-7	да	да	CCONJ	CCONJ	_	0	root	_	_
+1	ну	ну	PART	PART	_	6	discourse:filler	_	_
+2	вот	вот	PART	PART	_	6	discourse	_	_
+3	чт	чт	X	X	_	5	repair:pwrepetition	_	_
+4	чт	чт	X	X	_	5	repair:pwrepetition	_	_
+5	что-то	что-то	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	похожее	похожий	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+7	да	да	CCONJ	CCONJ	_	6	parataxis	_	_
 
 1	не	не	PART	PART	_	2	advmod	_	_
 2	ну	ну	PART	PART	_	3	advmod	_	_
