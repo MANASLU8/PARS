@@ -755,17 +755,17 @@
 6	похожее	похожий	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 7	да	да	CCONJ	CCONJ	_	6	parataxis	_	_
 
-1	не	не	PART	PART	_	2	advmod	_	_
-2	ну	ну	PART	PART	_	3	advmod	_	_
-3	тут	тут	ADV	ADV	Degree=Pos	10	advmod	_	_
-4	просто	просто	PART	PART	_	5	advmod	_	_
-5	ээ	ээ	PUNCT	PUNCT	_	10	nsubj:pass	_	_
-6	не	не	PART	PART	_	7	advmod	_	_
-7	не	не	PART	PART	_	8	advmod	_	_
-8	тут	тут	ADV	ADV	Degree=Pos	5	advmod	_	_
-9	не	не	PART	PART	_	5	advmod	_	_
+1	не	нет	VERB	VERB	Aspect=Imp|Tense=Pres	10	discourse	_	_
+2	ну	ну	PART	PART	_	3	discourse:filler	_	_
+3	тут	тут	ADV	ADV	Degree=Pos	10	repair:apprepair	_	_
+4	просто	просто	PART	PART	_	3	discourse:pfiller	_	_
+5	ээ	ээ	PUNCT	PUNCT	_	10	discourse:et	_	_
+6	не	не	PART	PART	_	9	repair:repetition	_	_
+7	не	не	PART	PART	_	9	repair:repetition	_	_
+8	тут	тут	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	не	не	PART	PART	Polarity=Neg	10	advmod	_	_
 10	показан	показать	VERB	VERB	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
-11	конкретно	конкретно	ADV	ADV	Degree=Pos	12	advmod	_	_
+11	конкретно	конкретно	ADV	ADV	Degree=Pos	12	discourse	_	_
 12	экран	экран	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 
 1	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
