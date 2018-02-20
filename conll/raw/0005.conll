@@ -79,7 +79,7 @@
 9	которые	который	PRON	PRON	Case=Nom	11	obl	_	_
 10	все	весь	DET	DET	Case=Nom|Number=Plur	11	nsubj	_	_
 11	говорят	говорить	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
-12	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	cop	_	_
+12	это	это	PART	PART	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	cop	_	_
 13	монго	монго	PROPN	PROPN	Degree=Pos	0	root	_	_
 14	кассандра	кассандра	PROPN	PROPN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
 15	ээ	ээ	X	X	_	13	discourse:filler	_	_
@@ -95,7 +95,7 @@
 2	но	но	PART	PART	_	3	repair:repetition	_	_
 3	ноу	ноу	PART	PART	Foreign=Yes	4	compound	_	_
 4	эскуэль	эскуэль	PROPN	PROPN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-5	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	cop	_	_
+5	это	это	PART	PART	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	cop	_	_
 6	ээ	ээ	X	X	_	9	discourse:filler	_	_
 7	никакое	никакой	DET	DET	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	_
 8	не	не	PART	PART	Polarity=Neg	9	advmod	_	_
@@ -103,7 +103,7 @@
 
 # text = это нету никакого комитета который там делает какие-то спецификации 
 # sent_id = 10
-1	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+1	это	это	PART	PART	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
 2	нету	нет	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	никакого	никакой	DET	DET	Case=Gen|Gender=Neut|Number=Sing	4	amod	_	_
 4	комитета	комитет	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
@@ -650,7 +650,7 @@
 8	шестьдесят	шестьдесят	NUM	NUM	Case=Nom	14	advcl:conditional	_	_
 9	пятый	пятый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
 10	то	то	SCONJ	SCONJ	_	14	mark	_	_
-11	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+11	это	это	PART	PART	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
 12	тридцать	тридцать	NUM	NUM	Case=Nom	14	nummod:gov	_	_
 13	пять	пять	NUM	NUM	Case=Nom	12	compound	_	_
 14	лет	год	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	parataxis	_	_
@@ -666,101 +666,101 @@
 # text = первый предложил ээ дешевые телефоны которые нам позволили генерить сим ком всем контент 
 # sent_id = 39
 1	первый	первый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	предложил	предлагать	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	ээ	ээ	X	X	_	4	discourse:filler	_	_
+2	предложил	предложить	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ээ	ээ	X	X	_	2	discourse:filler	_	_
 4	дешевые	дешевый	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
 5	телефоны	телефон	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	obj	_	_
-6	которые	который	DET	DET	Case=Nom	2	obj	_	_
-7	нам	мы	PRON	PRON	Case=Dat|Number=Plur|Person=1	8	obl	_	_
-8	позволили	позволить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	_
-9	генерить	генерить	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	obl	_	_
-10	сим	сим	X	X	_	9	flat:name	_	_
-11	ком	ком	X	X	_	13	fixed	_	_
-12	всем	все	DET	DET	Case=Dat|Number=Plur	13	amod	_	_
-13	контент	контент	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	которые	который	PRON	PRON	Case=Nom	8	nsubj	_	_
+7	нам	мы	PRON	PRON	Case=Dat|Number=Plur|Person=1	8	iobj	_	_
+8	позволили	позволить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+9	генерить	генерить	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	сим	сим	X	X	_	13	repair:pwrepetition	_	_
+11	ком	ком	X	X	_	13	repair:pwrepetition	_	_
+12	всем	все	DET	DET	Case=Dat|Number=Plur	8	iobj	_	_
+13	контент	контент	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 
 # text = то есть у каждого у каждого из нас появилась возможность э постить котят э вот в систему которую придумал с тот чувак второй 
 # sent_id = 40
-1	то	то	SCONJ	SCONJ	_	4	mark	_	_
+1	то	то	SCONJ	SCONJ	_	9	discourse:pfiller	_	_
 2	есть	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
 3	у	у	ADP	ADP	_	4	case	_	_
-4	каждого	каждый	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	iobj	_	_
-5	у	у	ADP	ADP	_	4	cop	_	_
-6	каждого	каждый	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
-7	из	из	ADP	ADP	_	4	case	_	_
-8	нас	мы	PRON	PRON	Case=Acc|Number=Plur|Person=1	4	obj	_	_
+4	каждого	каждый	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	repair:mwpwrepetition	_	_
+5	у	у	ADP	ADP	_	6	case	_	_
+6	каждого	каждый	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	_
+7	из	из	ADP	ADP	_	8	case	_	_
+8	нас	мы	PRON	PRON	Case=Acc|Number=Plur|Person=1	6	nmod	_	_
 9	появилась	появиться	VERB	VERB	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 10	возможность	возможность	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-11	э	э	X	X	_	10	discourse:filler	_	_
-12	постить	постить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	flat:name	_	_
-13	котят	котёнок	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
-14	э	э	X	X	_	10	discourse:filler	_	_
-15	вот	вот	PART	PART	_	14	flat:name	_	_
+11	э	э	X	X	_	9	discourse:filler	_	_
+12	постить	постить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	dep	_	_
+13	котят	котёнок	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
+14	э	э	X	X	_	9	discourse:filler	_	_
+15	вот	вот	PART	PART	_	9	discourse:filler	_	_
 16	в	в	ADP	ADP	_	17	case	_	_
-17	систему	система	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	orphan	_	_
-18	которую	который	DET	DET	Case=Acc	10	orphan	_	_
-19	придумал	придумать	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	orphan	_	_
-20	с	с	ADP	ADP	_	21	case	_	_
-21	тот	тот	DET	DET	Case=Nom|Gender=Masc|Number=Sing	10	orphan	_	_
-22	чувак	чувак	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	orphan	_	_
-23	второй	второй	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	orphan	_	_
+17	систему	система	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+18	которую	который	PRON	PRON	Case=Acc	19	obj	_	_
+19	придумал	придумать	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+20	с	с	X	X	_	21	repair	_	_
+21	тот	тот	DET	DET	Case=Nom|Gender=Masc|Number=Sing	22	amod	_	_
+22	чувак	чувак	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+23	второй	второй	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
 
 # text = ээ соответственно мы и все сейчас заняты тем что ну там что-то пишем что-то постим что-то такое 
 # sent_id = 41
 1	ээ	ээ	X	X	_	7	discourse:filler	_	_
-2	соответственно	соответственно	ADV	ADV	Degree=Pos	1	advmod	_	_
-3	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=1	1	nsubj	_	_
-4	и	и	CCONJ	CCONJ	_	5	advmod	_	_
-5	все	весь	DET	DET	Case=Nom|Number=Plur	1	obj	_	_
-6	сейчас	сейчас	ADV	ADV	Degree=Pos	1	advmod	_	_
-7	заняты	занимать	VERB	VERB	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
-8	тем	тем	SCONJ	SCONJ	_	7	mark	_	_
-9	что	что	SCONJ	SCONJ	_	8	fixed	_	_
-10	ну	ну	PART	PART	_	11	advmod	_	_
-11	там	там	ADV	ADV	Degree=Pos	12	advmod	_	_
-12	что-то	что-то	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	obj	_	_
-13	пишем	писать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
-14	что-то	что-то	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
-15	постим	постить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	13	obl	_	_
-16	что-то	что-то	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	advmod	_	_
-17	такое	такой	DET	DET	Case=Nom|Gender=Neut|Number=Sing	13	obj	_	_
+2	соответственно	соответственно	ADV	ADV	Degree=Pos	7	advmod	_	_
+3	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+4	и	и	CCONJ	CCONJ	_	5	cc	_	_
+5	все	весь	PRON	PRON	Case=Nom|Number=Plur	3	conj	_	_
+6	сейчас	сейчас	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	заняты	занятый	ADJ	ADJ	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	тем	то	PRON	PRON	_	7	obl	_	_
+9	что	что	SCONJ	SCONJ	_	13	mark	_	_
+10	ну	ну	PART	PART	_	13	discourse:pfiller	_	_
+11	там	там	ADV	ADV	Degree=Pos	13	repair:placeholder	_	_
+12	что-то	что-то	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	obj	_	_
+13	пишем	писать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+14	что-то	что-то	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	obj	_	_
+15	постим	постить	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	13	conj	_	_
+16	что-то	что-то	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	conj	_	_
+17	такое	такой	DET	DET	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	_
 
 # text = на самом деле конечно того что ну это как бы не рокет сайенс там запостить котёнка ээ в вконтактик но тем не менее мы все это делаем рано или гм когда или когда-либо делаем 
 # sent_id = 42
 1	на	на	ADP	ADP	_	3	case	_	_
-2	самом	сам	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
-3	деле	дело	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	advmod	_	_
-4	конечно	конечно	ADV	ADV	Degree=Pos	5	parataxis	_	_
-5	того	то	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obj	_	_
-6	что	что	SCONJ	SCONJ	_	5	mark	_	_
-7	ну	ну	PART	PART	_	8	advmod	_	_
-8	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
-9	как	как	SCONJ	SCONJ	_	11	advmod	_	_
+2	самом	самое	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	деле	дело	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	parataxis	_	_
+4	конечно	конечно	ADV	ADV	Degree=Pos	12	parataxis	_	_
+5	того	то	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	discourse	_	_
+6	что	что	SCONJ	SCONJ	_	12	discourse	_	_
+7	ну	ну	PART	PART	_	12	discourse:pfiller	_	_
+8	это	это	PART	PART	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	cop	_	_
+9	как	как	SCONJ	SCONJ	_	12	discourse:pfiller	_	_
 10	бы	бы	PART	PART	Mood=Cnd	9	fixed	_	_
 11	не	не	PART	PART	Polarity=Neg	12	advmod	_	_
-12	рокет	рокет	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	flat:foreign	_	_
-13	сайенс	сайенс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
-14	там	там	ADV	ADV	Degree=Pos	12	advmod	_	_
-15	запостить	запостить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
-16	котёнка	котёнок	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	obl:agent	_	_
-17	ээ	ээ	X	X	_	15	obl	_	_
+12	рокет	рокет	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+13	сайенс	сайенс	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	compound	_	_
+14	там	там	ADV	ADV	Degree=Pos	12	repair:placeholder	_	_
+15	запостить	запостить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+16	котёнка	котёнок	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+17	ээ	ээ	X	X	_	12	discourse:filler	_	_
 18	в	в	ADP	ADP	_	19	case	_	_
-19	вконтактик	вконтактик	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
-20	но	но	CCONJ	CCONJ	_	21	cc	_	_
-21	тем	тем	SCONJ	SCONJ	_	34	conj	_	_
+19	вконтактик	вконтактик	PROPN	PROPN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
+20	но	но	CCONJ	CCONJ	_	34	cc	_	_
+21	тем	то	PRON	PRON	_	34	discourse	_	_
 22	не	не	PART	PART	Polarity=Neg	21	fixed	_	_
 23	менее	менее	ADV	ADV	Degree=Cmp	22	fixed	_	_
-24	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=1	21	nsubj	_	_
+24	мы	мы	PRON	PRON	Case=Nom|Number=Plur|Person=1	34	nsubj	_	_
 25	все	весь	DET	DET	Case=Nom|Number=Plur	24	amod	_	_
-26	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	advmod	_	_
-27	делаем	делать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	21	advmod	_	_
-28	рано	рано	ADV	ADV	Degree=Pos	21	case	_	_
-29	или	или	CCONJ	CCONJ	_	30	cc	_	_
-30	гм	гм	X	X	_	21	discourse:filler	_	_
-31	когда	когда	SCONJ	SCONJ	_	30	fixed	_	_
+26	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	obj	_	_
+27	делаем	делать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	34	repair:repetition	_	_
+28	рано	рано	ADV	ADV	Degree=Pos	34	advmod	_	_
+29	или	или	CCONJ	CCONJ	_	31	cc	_	_
+30	гм	гм	X	X	_	34	discourse:filler	_	_
+31	когда	когда	SCONJ	SCONJ	_	33	repair:mwrepetition	_	_
 32	или	или	CCONJ	CCONJ	_	33	cc	_	_
-33	когда-либо	когда-либо	ADV	ADV	Degree=Pos	21	mark	_	_
-34	делаем	делать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+33	когда-либо	когда-либо	ADV	ADV	Degree=Pos	34	advmod	_	_
+34	делаем	делать	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
 
 # text = вот 
 # sent_id = 43
@@ -772,19 +772,19 @@
 2	из-за	из-за	ADP	ADP	_	3	case	_	_
 3	этого	это	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
 4	произошло	произойти	VERB	VERB	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	вот	вот	PART	PART	_	4	advmod	_	_
+5	вот	вот	PART	PART	_	4	discourse:pfiller	_	_
 6	примерно	примерно	ADV	ADV	Degree=Pos	7	advmod	_	_
 7	такое	такой	DET	DET	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 
 # text = это прогноз э циско системз по росту только мобильного трафика 
 # sent_id = 45
-1	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
-2	прогноз	прогноз	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-3	э	э	X	X	_	0	discourse:filler	_	_
-4	циско	циско	PROPN	PROPN	Degree=Pos	3	flat:name	_	_
-5	системз	системз	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+1	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	прогноз	прогноз	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	э	э	X	X	_	2	discourse:filler	_	_
+4	циско	циско	PROPN	PROPN	Degree=Pos	2	nmod	_	_
+5	системз	системз	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
 6	по	по	ADP	ADP	_	7	case	_	_
-7	росту	рост	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+7	росту	рост	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
 8	только	только	PART	PART	_	9	advmod	_	_
 9	мобильного	мобильный	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	трафика	трафик	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
