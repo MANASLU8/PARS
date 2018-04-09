@@ -7,7 +7,8 @@
 7	могу	мочь	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	добавить	добавлять	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 9	по	по	ADP	ADP	_	10	case	_	_
-10	IOS7	IOS7	PNOUN	PNOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+10		IOS7	PNOUN	PNOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+10		IOS7	PNOUN	PNOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
 
 1	ээ	ээ	INTJ	INTJ	_	3	discourse:filler	_	_
 2	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
@@ -167,8 +168,9 @@
 2	есть	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
 3	что	что	PRON	PRON	Case=Nom|Number=Sing	5	nsubj	_	_
 4	такое	такой	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
-5	айос-семь	IOS7	PNOUN	PNOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-6	сейчас	сейчас	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	айос	IOS	PNOUN	PNOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	семь	7	NUM	NUM	_	5	flat	_	_
+7	сейчас	сейчас	ADV	ADV	Degree=Pos	5	advmod	_	_
 
 1	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	жесты	жест	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -1034,7 +1036,7 @@
 4	не	не	PART	PART	Polarity=Neg	5	advmod	_	_
 5	найду	найти	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 6	если	если	SCONJ	SCONJ	_	9	mark	_	_
-7	б	бы	PART	PART	Mood=Cnd	9	discourse	_	_
+7	б	бы	PART	PART	Mood=Cnd	9	aux	_	_
 8	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
 9	нашёл	найти	VERB	VERB	Aspect=Perf|Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
 10	ещё	еще	ADV	ADV	Degree=Pos	11	advmod	_	_
