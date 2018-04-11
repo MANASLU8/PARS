@@ -1,3 +1,4 @@
+Count sentences = 232, count tokens = 3280
 ------------POS------------
 NOUN	653
 VERB	352
