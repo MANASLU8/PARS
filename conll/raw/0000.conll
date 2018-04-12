@@ -95,8 +95,7 @@
 7	самом	самый	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	начале	начало	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 9	с	с	ADP	ADP	_	11	repair:apprepair	_	_
-10	ээ	ээ	INTJ	INTJ
-	_	11	discourse:filler	_	_
+10	ээ	ээ	INTJ	INTJ	_	11	discourse:filler	_	_
 11	со	с	ADP	ADP	_	12	case	_	_
 12	скеоморфизмом	скеоморфизм	NOUN	NOUN	Animacy=Inan|Case=Ins|Foreign=Yes|Gender=Masc|Number=Sing	5	obl	_	_
 13	и	и	CCONJ	CCONJ	_	12	cc	_	_
