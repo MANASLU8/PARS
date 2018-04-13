@@ -341,7 +341,7 @@
 18	точки	точка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
 19	зрения	зрение	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	fixed	_	_
 20	науки	наука	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
-21	то	то	СCONJ	СCONJ	_	25	cc	_	_
+21	то	то	CCONJ	СCONJ	_	25	cc	_	_
 22	есть	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	fixed	_	_
 23	ээ	ээ	X	X	_	25	discourse:filler	_	_
 24	ну	ну	PART	PART	_	25	discourse:pfiller	_	_
