@@ -1,0 +1,213 @@
+1	ну	ну	_	PART	_	2	advmod	_	_
+2	вообще	вообще	_	ADV	_	3	advmod	_	_
+3	эффективный	эффективный	_	ADJ	_	0	root	_	_
+
+1	я	я	_	PRON	_	2	nsubj	_	_
+2	читала	читать	_	VERB	_	0	root	_	_
+3	тоже	тоже	_	PART	_	2	advmod	_	_
+4	и	и	_	CCONJ	_	6	cc	_	_
+5	в	в	_	ADP	_	6	case	_	_
+6	интернете	интернет	_	NOUN	_	2	conj	_	_
+7	про	про	_	ADP	_	8	case	_	_
+8	него	он	_	PRON	_	6	nmod	_	_
+9	что	что	_	SCONJ	_	6	cc	_	_
+10	он	он	_	PRON	_	12	nsubj	_	_
+11	очень	очень	_	ADV	_	12	advmod	_	_
+12	эффективный	эффективный	_	ADJ	_	6	advcl	_	_
+
+1	а	а	_	CCONJ	_	3	cc	_	_
+2	у	у	_	ADP	_	3	case	_	_
+3	вас	вы	_	PRON	_	0	root	_	_
+4	здесь	здесь	_	ADV	_	3	advmod	_	_
+5	интернет	интернет	_	NOUN	_	3	nsubj	_	_
+6	есть	быть	_	VERB	_	3	cop	_	_
+
+1	да	да	_	CCONJ	_	3	cc	_	_
+2	почти	почти	_	ADV	_	3	advmod	_	_
+3	нету	нет	_	VERB	_	0	root	_	_
+
+1	знаешь	знать	_	VERB	_	10	advmod	_	_
+2	ыэ	ыэ	_	NOUN	_	8	fixed	_	_
+3	как	как	_	ADV	_	5	advmod	_	_
+4	бы	бы	_	PART	_	3	fixed	_	_
+5	э	эра	_	ADJ	_	8	obl	_	_
+6	хм	хм	_	NOUN	_	8	mark	_	_
+7	как	как	_	SCONJ	_	6	fixed	_	_
+8	сказать	сказать	_	VERB	_	10	nsubj	_	_
+9	иногда	иногда	_	ADV	_	8	advmod	_	_
+10	откроeт	откроeт	_	VERB	_	13	amod	_	_
+11	вот	вот	_	PART	_	12	advmod	_	_
+12	ээ	ээ	_	PROPN	_	10	obj	_	_
+13	подключен	подключать	_	VERB	_	17	nsubj:pass	_	_
+14	то	то	_	SCONJ	_	13	nsubj:pass	_	_
+15	у	у	_	ADP	_	16	case	_	_
+16	меня	я	_	PRON	_	13	obl	_	_
+17	подключен	подключать	_	VERB	_	0	root	_	_
+18	плачу	плакать	_	VERB	_	17	obl:agent	_	_
+19	я	я	_	PRON	_	17	advmod	_	_
+
+1	угу	угу	_	NOUN	_	0	root	_	_
+
+1	иногда	иногда	_	ADV	_	2	advmod	_	_
+2	откроет	открывать	_	VERB	_	0	root	_	_
+3	ну	ну	_	PART	_	2	advmod	_	_
+4	картинку	картинка	_	NOUN	_	2	obj	_	_
+5	посмотреть	смотреть	_	VERB	_	2	nsubj	_	_
+6	фотографию	фотография	_	NOUN	_	5	obj	_	_
+7	например	например	_	ADV	_	10	advmod	_	_
+8	или	или	_	CCONJ	_	9	cc	_	_
+9	вот	вот	_	PART	_	7	conj	_	_
+10	текст	текст	_	NOUN	_	2	obl	_	_
+11	какой-то	какой-то	_	ADJ	_	10	amod	_	_
+
+1	угу	угу	_	NOUN	_	0	root	_	_
+
+1	ээ	ээ	_	NOUN	_	5	nsubj	_	_
+2	еще	еще	_	ADV	_	3	advmod	_	_
+3	ну	ну	_	PART	_	1	advmod	_	_
+4	так	так	_	ADV	_	5	advmod	_	_
+5	сказать	сказать	_	VERB	_	0	root	_	_
+6	дождешься	дождешься	_	VERB	_	5	obl	_	_
+7	чтоб	чтобы	_	SCONJ	_	8	advmod	_	_
+8	открыл	открывать	_	VERB	_	5	xcomp	_	_
+9	и	и	_	PART	_	10	cc	_	_
+10	посмотришь	посмотреть	_	VERB	_	8	conj	_	_
+
+1	а	а	_	CCONJ	_	3	cc	_	_
+2	видео	видео	_	NOUN	_	3	nsubj	_	_
+3	никакое	никакой	_	DET	_	0	root	_	_
+4	не	не	_	PART	_	5	advmod	_	_
+5	посмотришь	посмотреть	_	VERB	_	3	punct	_	_
+
+1	вот	вот	_	PART	_	2	advmod	_	_
+2	ээ	ээ	_	NOUN	_	3	amod	_	_
+3	сестра	сестра	_	NOUN	_	4	nsubj	_	_
+4	двоюродная	двоюродный	_	ADJ	_	0	root	_	_
+5	например	например	_	ADV	_	6	advmod	_	_
+6	прислала	прислать	_	VERB	_	7	amod	_	_
+7	внука	внук	_	NOUN	_	4	obj	_	_
+8	своего	свой	_	DET	_	9	amod	_	_
+9	видео	видео	_	NOUN	_	7	nmod	_	_
+
+1	ну	ну	_	PART	_	3	advmod	_	_
+2	и	и	_	CCONJ	_	3	advmod	_	_
+3	что	что	_	PRON	_	5	obj	_	_
+4	там	там	_	ADV	_	5	advmod	_	_
+5	увидишь	видеть	_	VERB	_	0	root	_	_
+
+1	одно	один	_	NUM	_	2	fixed	_	_
+2	можно	можно	_	ADV	_	0	root	_	_
+3	сказать	сказать	_	VERB	_	2	nsubj	_	_
+4	заикание	заикание	_	NOUN	_	3	punct	_	_
+
+1	тык	тык	_	NOUN	_	0	root	_	_
+2	угу	угу	_	NOUN	_	1	flat:name	_	_
+3	заткнулся	заткнуть	_	VERB	_	2	punct	_	_
+
+1	потом	потом	_	ADV	_	3	advmod	_	_
+2	вот	вот	_	PART	_	3	advmod	_	_
+3	сидишь	сидеть	_	VERB	_	8	advcl	_	_
+4	ждешь	ждать	_	VERB	_	3	xcomp	_	_
+5	ждешь	ждать	_	VERB	_	4	obj	_	_
+6	он	он	_	PRON	_	8	nsubj	_	_
+7	там	там	_	ADV	_	8	advmod	_	_
+8	крутит	крутить	_	VERB	_	0	root	_	_
+9	крутит	крутить	_	VERB	_	8	obl	_	_
+10	опять	опять	_	ADV	_	9	advmod	_	_
+
+1	ну	ну	_	PART	_	2	advmod	_	_
+2	а	а	_	CCONJ	_	9	cc	_	_
+3	видео	видео	_	NOUN	_	9	obj	_	_
+4	со	с	_	ADP	_	5	case	_	_
+5	звуком	звук	_	NOUN	_	3	nmod	_	_
+6	еще	еще	_	ADV	_	7	advmod	_	_
+7	он	он	_	PRON	_	9	nsubj	_	_
+8	там	там	_	ADV	_	9	advmod	_	_
+9	пел	петь	_	VERB	_	0	root	_	_
+10	и	и	_	PART	_	11	cc	_	_
+11	танцевал	танцевать	_	VERB	_	9	conj	_	_
+
+1	и	и	_	CCONJ	_	3	advmod	_	_
+2	опять	опять	_	ADV	_	3	advmod	_	_
+3	только	только	_	PART	_	4	advmod	_	_
+4	ээ	ээ	_	X	_	8	nsubj	_	_
+5	и	и	_	CCONJ	_	6	advmod	_	_
+6	опять	опять	_	ADV	_	8	advmod	_	_
+7	все	все	_	PRON	_	8	amod	_	_
+8	заткнулось	заткнуть	_	VERB	_	0	root	_	_
+
+1	я	я	_	PRON	_	2	nsubj	_	_
+2	говорю	говорить	_	VERB	_	7	mark	_	_
+3	что	что	_	SCONJ	_	2	obj	_	_
+4	хоть	хоть	_	ADV	_	5	advmod	_	_
+5	ты	ты	_	PRON	_	7	nsubj	_	_
+6	мне	я	_	PRON	_	7	iobj	_	_
+7	прислала	прислать	_	VERB	_	0	root	_	_
+
+1	хоть	хоть	_	ADV	_	2	advmod	_	_
+2	фотокарточку	фотокарточка	_	NOUN	_	3	obj	_	_
+3	прислать	присылать	_	VERB	_	7	xcomp	_	_
+4	это	это	_	PRON	_	3	obj	_	_
+5	да	да	_	CCONJ	_	3	obl	_	_
+6	еще	еще	_	ADV	_	7	advmod	_	_
+7	может	мочь	_	VERB	_	0	root	_	_
+8	откроет	открывать	_	VERB	_	7	xcomp	_	_
+9	и	и	_	PART	_	10	advmod	_	_
+10	я	я	_	PRON	_	7	nsubj	_	_
+11	хоть	хоть	_	ADV	_	12	advmod	_	_
+12	что-то	что-то	_	NOUN	_	13	obj	_	_
+13	увижу	видеть	_	VERB	_	7	xcomp	_	_
+
+1	а	а	_	CCONJ	_	6	cc	_	_
+2	видео	видео	_	NOUN	_	6	obj	_	_
+3	вообще	вообще	_	ADV	_	4	advmod	_	_
+4	ничего	ничто	_	PRON	_	6	obl	_	_
+5	не	не	_	PART	_	6	advmod	_	_
+6	увидишь	видеть	_	VERB	_	0	root	_	_
+
+1	то	то	_	PRON	_	6	mark	_	_
+2	есть	быть	_	VERB	_	1	fixed	_	_
+3	не	не	_	PART	_	4	advmod	_	_
+4	настолько	настолько	_	ADV	_	5	advmod	_	_
+5	он	он	_	PRON	_	6	nsubj	_	_
+6	хорош	хороший	_	ADJ	_	12	advmod	_	_
+7	но	но	_	CCONJ	_	11	cc	_	_
+8	э	эра	_	ADJ	_	11	obl	_	_
+9	про	про	_	ADP	_	10	case	_	_
+10	лекарства	лекарство	_	NOUN	_	11	obl	_	_
+11	посмотреть	смотреть	_	VERB	_	12	nsubj	_	_
+12	можно	можно	_	ADV	_	0	root	_	_
+
+1	ну	ну	_	PART	_	2	advmod	_	_
+2	почитать	почитать	_	VERB	_	5	advcl	_	_
+3	текст	текст	_	NOUN	_	2	obj	_	_
+4	то	то	_	PRON	_	5	nsubj	_	_
+5	можно	можно	_	ADV	_	0	root	_	_
+
+1	ну	ну	_	PART	_	2	advmod	_	_
+2	ладно	ладно	_	PART	_	5	advmod	_	_
+3	хоть	хоть	_	ADV	_	4	advmod	_	_
+4	текст	текст	_	NOUN	_	5	nsubj	_	_
+5	почитаете	почитать	_	VERB	_	0	root	_	_
+
+1	да	да	_	CCONJ	_	3	cc	_	_
+2	текст	текст	_	NOUN	_	3	obj	_	_
+3	почитать	почитать	_	VERB	_	0	root	_	_
+4	там	там	_	ADV	_	3	advmod	_	_
+
+1	про	про	_	ADP	_	2	case	_	_
+2	какую-нибудь	какой-нибудь	_	DET	_	0	root	_	_
+3	болезнь	болезнь	_	NOUN	_	2	obj	_	_
+4	там	там	_	ADV	_	6	advmod	_	_
+5	какие	какой	_	DET	_	6	amod	_	_
+6	ага	ага	_	INTJ	_	3	appos	_	_
+7	симптомы	симптом	_	NOUN	_	3	nmod	_	_
+8	или	или	_	CCONJ	_	9	cc	_	_
+9	что	что	_	PRON	_	2	conj	_	_
+10	там	там	_	ADV	_	9	advmod	_	_
+11	ну	ну	_	PART	_	12	advmod	_	_
+12	такое	такой	_	DET	_	14	amod	_	_
+13	[laugh]	[laugh]	_	SYM	_	15	obj	_	_
+14	в	в	_	ADP	_	15	case	_	_
+15	общем	общий	_	ADJ	_	12	obl	_	_
+
