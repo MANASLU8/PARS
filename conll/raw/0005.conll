@@ -864,7 +864,7 @@
 5	что	что	SCONJ	SCONJ	_	12	mark	_	_
 6	все	весь	DET	DET	Case=Nom|Number=Plur	8	amod	_	_
 7	реляционные	реляционный	ADJ	ADJ	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
-8	базы	база	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	reparandum:revision	_	_
+8	базы	база	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	repair:revision	_	_
 9	ну	ну	PART	PART	_	12	discourse:pfiller	_	_
 10	не	не	PART	PART	Polarity=Neg	11	advmod	_	_
 11	все	весь	DET	DET	Case=Nom|Number=Plur	12	discourse	_	_
