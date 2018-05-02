@@ -9,9 +9,9 @@
 6	просто	ПРОСТО	PART	PART	_	5	advmod	_	_
 7	объем	ОБЪЕМ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	5	obj	_	_
 8	всего	ВСЕГО	ADJ	ADJ	_	14	repair:apprepair	_	_
-9	этого	ЭТО	DET	DET	CASE=GEN|GENDER=NEUT|NUM=SING	14	repair:apprepair	_	_
-10	ооу	ОУ	INTJ	INTJ	_	14	dicourse:et	_	_
-11	все	ВЕСЬ	PRON	PRON	CASE=ACC|NUM=PLUR	14	repair:pwrepetition	_	_
+9	этого	ЭТО	DET	DET	CASE=GEN|GENDER=NEUT|NUM=SING	8	flat	_	_
+10	ооу	ОУ	INTJ	INTJ	_	14	discourse:et	_	_
+11	все	ВЕСЬ	PRON	PRON	CASE=ACC|NUM=PLUR	12	repair:pwrepetition	_	_
 12	всей	ВЕСЬ	ADJ	ADJ	CASE=GEN|GENDER=FEM|NUM=SING	14	amod	_	_
 13	этой	ЭТОТ	DET	DET	CASE=GEN|GENDER=FEM|NUM=SING	14	amod	_	_
 14	системы	СИСТЕМА	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=FEM|NUM=PLUR	7	nmod	_	_
