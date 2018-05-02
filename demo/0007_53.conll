@@ -5,12 +5,11 @@
 2	пригласили	ПРИГЛАСИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|PERSON=3|TENSE=PAST|VOICE=ACT	0	root	_	_
 3	эксперта	ЭКСПЕРТ	NOUN	NOUN	ANIMACY=ANIM|CASE=ACC|GENDER=MASC|NUM=SING	2	obj	_	edu:boundary
 4	эксперты	ЭКСПЕРТ	NOUN	NOUN	ANIMACY=ANIM|CASE=NOM|GENDER=MASC|NUM=PLUR	8	nsubj	_	_
-5	проставили	ПРОСТАВИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|PERSON=3|TENSE=PAST|VOICE=ACT	8	reparandum:apprepair	_	_
+5	проставили	ПРОСТАВИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|PERSON=3|TENSE=PAST|VOICE=ACT	8	repair:frstart	_	_
 6	свои	СВОЙ	ADJ	ADJ	CASE=NOM|NUM=PLUR	5	obj	_	edu:boundary
 7	ну	НУ	PART	PART	_	8	discourse:et	_	_
-8	посмотрели	ПОСМОТРЕТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|PERSON=3|TENSE=PAST|VOICE=ACT	2	conj	_	_
+8	посмотрели	ПОСМОТРЕТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|PERSON=3|TENSE=PAST|VOICE=ACT	2	parataxis	_	_
 9	каждую	КАЖДЫЙ	ADJ	ADJ	CASE=ACC|GENDER=FEM|NUM=SING	8	obj	_	_
 10	из	ИЗ	ADP	ADP	_	11	case	_	_
 11	работ	РАБОТА	NOUN	NOUN	ANIMACY=INAN|CASE=GEN|GENDER=FEM|NUM=PLUR	9	nmod	_	edu:boundary
 12	оценили	ОЦЕНИТЬ	VERB	VERB	ASP=PERF|NUM=PLUR|PERSON=3|TENSE=PAST|VOICE=ACT	8	conj	_	_
-
