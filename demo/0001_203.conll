@@ -2,12 +2,12 @@
 #sentence = и сделать такой продукт чтобы ээ эти вот элементы все эти анимировались 
 
 1	и	И	CCONJ	CCONJ	_	2	cc	_	_
-2	сделать	СДЕЛАТЬ	VERB	VERB	ASP=PERF|VOICE=ACT|VERBFORM=INF	0	root	_	_
+2	сделать	СДЕЛАТЬ	VERB	VERB	ASP=PERF|VERBFORM=INF|VOICE=ACT	0	root	_	_
 3	такой	ТАКОЙ	ADJ	ADJ	CASE=ACC|GENDER=MASC|NUM=SING	4	amod	_	_
 4	продукт	ПРОДУКТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=SING	2	obj	_	_
 5	чтобы	ЧТОБЫ	SCONJ	SCONJ	_	12	mark	_	edu:boundary
 6	ээ	ЭЭ	INTJ	INTJ	_	12	discourse:filler	_	_
-7	эти	ЭТОТ	DET	DET	CASE=ACC|NUM=PLUR	11	reparandum:repetition	_	_
+7	эти	ЭТОТ	DET	DET	CASE=ACC|NUM=PLUR	11	repair:repetition	_	_
 8	вот	ВОТ	PART	PART	_	7	discourse:pfiller	_	_
 9	элементы	ЭЛЕМЕНТ	NOUN	NOUN	ANIMACY=INAN|CASE=ACC|GENDER=MASC|NUM=PLUR	12	obj	_	_
 10	все	ВЕСЬ	ADJ	ADJ	CASE=NOM|GENDER=MASC|NUM=PLUR	9	amod	_	_
