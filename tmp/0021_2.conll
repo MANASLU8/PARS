@@ -207,7 +207,9 @@
 10	там	там	_	ADV	_	9	advmod	_	_
 11	ну	ну	_	PART	_	12	advmod	_	_
 12	такое	такой	_	DET	_	14	amod	_	_
-13	[laugh]	[laugh]	_	SYM	_	15	obj	_	_
-14	в	в	_	ADP	_	15	case	_	_
-15	общем	общий	_	ADJ	_	12	obl	_	_
+13	-LSB-	[	_	ADJ	_	14	amod	_	_
+14	смех	смех	_	NOUN	_	15	obj	_	_
+15	-RSB-	]	_	NOUN	_	2	advcl	_	_
+16	в	в	_	ADP	_	17	case	_	_
+17	общем	общий	_	ADJ	_	15	obl	_	_
 
