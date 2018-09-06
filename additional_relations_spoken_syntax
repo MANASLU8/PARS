@@ -1,0 +1,29 @@
+1. Повторы (repair:repetition vs repair:mwrepetition)
+Если повторяется больше одной словоформы, то отношение repair:repetition ставится от вершины повторенного фрагмента к вершине первого употребления (в случае неоднократного повтора: от последнего - к каждому из предыдущих, ср. == conj, amod). В случае повтора нескольких слов ставится отношение repair:mwrepetition (== multi-word repetition): оно означает, что повторяются и все слова, зависящие от вершины, к которой поставлена данная связь
+i) пример повтора из нескольких слов.
+1	а	а	PART	PART	_	2	discourse	_	_
+2	чт	чт	X	X	_	4	repair:mwpwrepetition	_	_
+3	а	а	PART	PART	_	4	discourse	_	_
+4	что	что	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+5	это	это	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+
+ii) пример неоднократного повтора
+1	а	а	INTJ	INTJ	_	5	discourse	_	_
+2	да	да	PART	PART	_	5	repair:repetition	_	_
+3	да	да	PART	PART	_	5	repair:repetition	_	_
+4	да	да	PART	PART	_	5	repair:repetition	_	_
+5	да	да	PART	PART	_	0	root	_	_
+
+iii) пример неполного повтора синтаксической конструкции:
+не обязат не обязательно
+тип связи repair:mwpwrepetition
+
+
+2. advcl
+http://universaldependencies.org/u/dep/advcl.html
+
+advcl:temporal
+advcl:conditional
+advcl:purpose
+advcl:consequence
+advcl:reason
