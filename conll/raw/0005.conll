@@ -3692,18 +3692,18 @@
 
 # text = а две там где две машины они даже не будут пытаться ничего делать 
 # sent_id = 215
-1	а	а	CCONJ	CCONJ	_	3	cc	_	_
-2	две	два	NUM	NUM	Case=Nom|Gender=Fem	3	nummod:gov	_	_
-3	там	там	ADV	ADV	Degree=Pos	11	advmod	_	_
-4	где	где	ADV	ADV	Degree=Pos	3	advmod	_	_
-5	две	два	NUM	NUM	Case=Nom|Gender=Fem	6	nummod:gov	_	_
-6	машины	машина	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+1	а	а	CCONJ	CCONJ	_	11	discourse	_	_
+2	две	два	NUM	NUM	Case=Nom|Gender=Fem	5	repair:repetition	_	_
+3	там	там	ADV	ADV	Degree=Pos	11	obl	_	_
+4	где	где	ADV	ADV	Degree=Pos	0	advmod	_	_
+5	две	два	NUM	NUM	Case=Nom|Gender=Fem	6	nummod	_	_
+6	машины	машина	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	advcl	_	_
 7	они	они	PRON	PRON	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
-8	даже	даже	PART	PART	_	9	advmod	_	_
+8	даже	даже	PART	PART	_	11	advmod	_	_
 9	не	не	PART	PART	Polarity=Neg	11	advmod	_	_
 10	будут	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	пытаться	пытать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
-12	ничего	ничто	PRON	PRON	Case=Gen	11	obl	_	_
+12	ничего	ничто	PRON	PRON	Case=Gen	13	obj	_	_
 13	делать	делать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
 
 # text = но смотрите если в реплика сете например ээ было 
