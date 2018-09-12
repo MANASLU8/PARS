@@ -15,14 +15,14 @@
 11	очень	очень	_	ADV	_	12	advmod	_	_
 12	эффективный	эффективный	_	ADJ	_	2	ccomp	_	_
 
-1	а	а	_	CCONJ	_	6	cc	_	_
+1	а	а	_	CCONJ	_	6	discourse	_	_
 2	у	у	_	ADP	_	3	case	_	_
 3	вас	вы	_	PRON	_	6	obl	_	_
 4	здесь	здесь	_	ADV	_	6	advmod	_	_
 5	интернет	интернет	_	NOUN	_	6	nsubj	_	_
 6	есть	быть	_	VERB	_	0	root	_	_
 
-1	да	да	_	PART	_	3	advmod	_	_
+1	да	да	_	PART	_	3	discourse	_	_
 2	почти	почти	_	ADV	_	3	advmod	_	_
 3	нету	нет	_	VERB	_	0	root	_	_
 
@@ -95,9 +95,9 @@
 4	там	там	_	ADV	_	5	advmod	_	_
 5	увидишь	увидеть	_	VERB	_	0	root	_	_
 
-1	одно	один	_	NUM	_	4	nummod	_	_
-2	можно	можно	_	VERB	_	3	aux	_	_
-3	сказать	сказать	_	VERB	_	4	parataxis	_	_
+1	одно	один	_	ADJ	_	4	amod	_	_
+2	можно	можно	_	VERB	_	4	parataxis	_	_
+3	сказать	сказать	_	VERB	_	2	fixed	_	_
 4	заикание	заикание	_	NOUN	_	0	root	_	_
 
 1	тык	тык	_	INTJ	_	0	root	_	_
@@ -106,30 +106,31 @@
 1	потом	потом	_	ADV	_	3	advmod	_	_
 2	вот	вот	_	PART	_	3	discourse:pfiller	_	_
 3	сидишь	сидеть	_	VERB	_	0	root	_	_
-4	ждешь	ждать	_	VERB	_	3	conj:serialization	_	_
-5	ждешь	ждать	_	VERB	_	4	rel	_	_
+4	ждешь	ждать	_	VERB	_	3	compound:svc	_	_
+5	ждешь	ждать	_	VERB	_	4	repetition	_	_
 6	он	он	_	PRON	_	8	nsubj	_	_
 7	там	там	_	ADV	_	8	repair:placeholder	_	_
 8	крутит	крутить	_	VERB	_	3	parataxis	_	_
-9	крутит	крутить	_	VERB	_	8	rel	_	_
+9	крутит	крутить	_	VERB	_	8	repetition	_	_
 10	опять	опять	_	ADV	_	8	advmod	_	_
 
 1	ну	ну	_	PART	_	3	discourse:filler	_	_
-2	а	а	_	CCONJ	_	3	cc	_	_
+2	а	а	_	CCONJ	_	3	discourse	_	_
 3	видео	видео	_	NOUN	_	0	root	_	_
 4	со	с	_	ADP	_	5	case	_	_
-5	звуком	звук	_	NOUN	_	3	orphan	_	_
+5	звуком	звук	_	NOUN	_	3	nmod	_	_
 6	еще	еще	_	ADV	_	5	advmod	_	_
-7	он	он	_	PRON	_	9	nsubj	_	_
-8	там	там	_	ADV	_	9	advmod	_	_
-9	пел	петь	_	VERB	_	3	parataxis	_	_
-10	и	и	_	CCONJ	_	11	cc	_	_
-11	танцевал	танцевать	_	VERB	_	9	conj	_	_
 
-1	и	и	_	CCONJ	_	2	cc	_	_
-2	опять	опять	_	ADV	_	0	root	_	_
-3	только	только	_	PART	_	2	orphan	_	_
-4	ээ	ээ	_	INJ	_	2	parataxis	_	_
+1	он	он	_	PRON	_	3	nsubj	_	_
+2	там	там	_	ADV	_	3	advmod	_	_
+3	пел	петь	_	VERB	_	0	root	_	_
+4	и	и	_	CCONJ	_	5	cc	_	_
+5	танцевал	танцевать	_	VERB	_	3	conj	_	_
+
+1	и	и	_	CCONJ	_	4	discourse	_	_
+2	опять	опять	_	ADV	_	4	root	_	_
+3	только	только	_	PART	_	4	orphan	_	_
+4	ээ	ээ	_	INTJ	_	0	root	_	_
 5	и	и	_	CCONJ	_	8	cc	_	_
 6	опять	опять	_	ADV	_	8	advmod	_	_
 7	все	все	_	PRON	_	8	nsubj	_	_
@@ -137,19 +138,19 @@
 
 1	я	я	_	PRON	_	2	nsubj	_	_
 2	говорю	говорить	_	VERB	_	0	root	_	_
-3	что	что	_	SCONJ	_	7	mark	_	_
-4	хоть	хоть	_	ADV	_	5	advmod	_	_
+3	что	что	_	PRON	_	7	obj	_	_
+4	хоть	хоть	_	ADV	_	7	discourse	_	_
 5	ты	ты	_	PRON	_	7	nsubj	_	_
 6	мне	я	_	PRON	_	7	iobj	_	_
-7	прислала	прислать	_	VERB	_	2	parataxis	_	_
+7	прислала	прислать	_	VERB	_	2	parataxis:obj	_	_
 
 1	хоть	хоть	_	ADV	_	2	advmod	_	_
 2	фотокарточку	фотокарточка	_	NOUN	_	3	obj	_	_
-3	прислать	прислать	_	VERB	_	0	root	_	_
-4	это	это	_	PART	_	5	cop	_	_
-5	да	да	_	INTJ	_	3	parataxis	_	_
+3	прислать	прислать	_	VERB	_	5	nsubj	_	_
+4	это	это	_	PART	_	5	expl	_	_
+5	да	да	_	INTJ	_	0	root	_	_
 6	еще	еще	_	ADV	_	8	advmod	_	_
-7	может	мочь	_	VERB	_	8	parataxis	_	_
+7	может	мочь	_	VERB	_	8	discourse	_	_
 8	откроет	открыть	_	VERB	_	5	parataxis	_	_
 9	и	и	_	CCONJ	_	13	cc	_	_
 10	я	я	_	PRON	_	13	nsubj	_	_
@@ -157,25 +158,25 @@
 12	что-то	что-то	_	PRON	_	13	obj	_	_
 13	увижу	увидеть	_	VERB	_	8	parataxis	_	_
 
-1	а	а	_	CCONJ	_	2	cc	_	_
-2	видео	видео	_	NOUN	_	6	parataxis	_	_
-3	вообще	вообще	_	ADV	_	4	advmod	_	_
+1	а	а	_	CCONJ	_	6	discourse	_	_
+2	видео	видео	_	NOUN	_	6	obl	_	_
+3	вообще	вообще	_	ADV	_	6	advmod	_	_
 4	ничего	ничто	_	PRON	_	6	obj	_	_
 5	не	не	_	PART	_	6	advmod	_	_
 6	увидишь	увидеть	_	VERB	_	0	root	_	_
 
 1	то	то	_	SCONJ	_	6	discourse:pfiller	_	_
 2	есть	быть	_	AUX	_	1	fixed	_	_
-3	не	не	_	PART	_	4	advmod	_	_
+3	не	не	_	PART	_	6	advmod	_	_
 4	настолько	настолько	_	ADV	_	6	advmod	_	_
 5	он	он	_	PRON	_	6	nsubj	_	_
 6	хорош	хороший	_	ADJ	_	0	root	_	_
-7	но	но	_	CCONJ	_	11	cc	_	_
-8	э	э	_	X	_	11	discourse:filler	_	_
+7	но	но	_	CCONJ	_	12	cc	_	_
+8	э	э	_	X	_	12	discourse:filler	_	_
 9	про	про	_	ADP	_	10	case	_	_
 10	лекарства	лекарство	_	NOUN	_	11	obl	_	_
-11	посмотреть	посмотреть	_	VERB	_	6	conj	_	_
-12	можно	можно	_	VERB	_	11	aux	_	_
+11	посмотреть	посмотреть	_	VERB	_	12	xcomp	_	_
+12	можно	можно	_	VERB	_	6	conj	_	_
 
 1	ну	ну	_	PART	_	2	discourse:filler	_	_
 2	почитать	почитать	_	VERB	_	0	root	_	_
@@ -192,18 +193,18 @@
 1	да	да	_	INTJ	_	3	discourse	_	_
 2	текст	текст	_	NOUN	_	3	obj	_	_
 3	почитать	почитать	_	VERB	_	0	root	_	_
-4	там	там	_	ADV	_	3	discourse:pfiller	_	_
+4	там	там	_	ADV	_	7	discourse:pfiller	_	_
+5	про	про	_	ADP	_	7	case	_	_
+6	какую-нибудь	какой-нибудь	_	DET	_	7	amod	_	_
+7	болезнь	болезнь	_	NOUN	_	3	obl	_	_
+8	там	там	_	ADV	_	10	discourse:pfiller	_	_
+9	какие	какой	_	DET	_	10	amod	_	_
+10	симптомы	симптом	_	NOUN	_	3	parataxis	_	_
+11	или	или	_	CCONJ	_	12	cc	_	_
+12	что	что	_	PRON	_	10	conj	_	_
+13	там	там	_	ADV	_	12	discourse:pfiller	_	_
 
-1	про	про	_	ADP	_	3	case	_	_
-2	какую-нибудь	какой-нибудь	_	DET	_	3	amod	_	_
-3	болезнь	болезнь	_	NOUN	_	0	root	_	_
-4	там	там	_	ADV	_	3	repair:placeholder	_	_
-5	какие	какой	_	DET	_	6	amod	_	_
-6	симптомы	симптом	_	NOUN	_	3	orphan	_	_
-7	или	или	_	CCONJ	_	8	cc	_	_
-8	что	что	_	PRON	_	6	conj	_	_
-9	там	там	_	ADV	_	8	repair:placeholder	_	_
-10	ну	ну	_	PART	_	11	discourse:filler	_	_
-11	такое	такой	_	DET	_	3	parataxis	_	_
-12	в	в	_	ADP	_	11	discourse:pfiller	_	_
-13	общем	общий	_	ADV	_	12	fixed	_	_
+1	ну	ну	_	PART	_	2	discourse:filler	_	_
+2	такое	такой	_	ADJ	_	0	root	_	_
+3	в	в	_	ADP	_	4	fixed	_	_
+4	общем	общий	_	ADV	_	2	discourse	_	_
