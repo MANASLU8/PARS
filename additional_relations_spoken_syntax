@@ -27,3 +27,32 @@ advcl:conditional
 advcl:purpose
 advcl:consequence
 advcl:reason
+
+3. Глагольная сериализация и повторы
+compound:svc для сериализованных конструкций и repetition для стилистических повторов, не относящихся к речевым сбоям. 
+Пример:
+1	потом	потом	_	ADV	_	3	advmod	_	_
+2	вот	вот	_	PART	_	3	discourse:pfiller	_	_
+3	сидишь	сидеть	_	VERB	_	0	root	_	_
+4	ждешь	ждать	_	VERB	_	3	compound:svc	_	_
+5	ждешь	ждать	_	VERB	_	4	repetition	_	_
+6	он	он	_	PRON	_	8	nsubj	_	_
+7	там	там	_	ADV	_	8	repair:placeholder	_	_
+8	крутит	крутить	_	VERB	_	3	parataxis	_	_
+9	крутит	крутить	_	VERB	_	8	repetition	_	_
+10	опять	опять	_	ADV	_	8	advmod	_	_
+
+4. Именительный темы и вынос клаузы в качестве темы
+Используются разные синтаксические отношения: parataxis:dislocated http://universaldependencies.org/fr/dep/parataxis-dislocated.html 
+для случаев выноса клаузы и topic для именительного темы
+
+5. Прямая речь в качестве объекта
+по аналогии с разговорным французским
+http://universaldependencies.org/fr/dep/parataxis-obj.html
+
+6. Непрямая речи в виде вставки:
+http://universaldependencies.org/fr/dep/parataxis-insert.html
+
+
+
+
