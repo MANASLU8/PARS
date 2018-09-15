@@ -866,12 +866,12 @@
 
 1	сейчас	сейчас	ADV	ADV	Degree=Pos	3	advmod	_	_
 2	ты	ты	PRON	PRON	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
-3	переходишь	переходить	VERB	VERB	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl:conditional	_	_
+3	переходишь	переходить	VERB	VERB	Aspect=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl:conditional	_	_
 4	на	на	ADP	ADP	_	6	case	_	_
 5	другой	другой	ADJ	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	экран	экран	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 7	она	она	PRON	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
-8	может	мочь	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	может	мочь	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	там	там	PART	PART	_	10	discourse:pfiller	_	_
 10	спульсировать	спульсировать	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
 11	в	в	ADP	ADP	_	13	repair:repetition	_	_
