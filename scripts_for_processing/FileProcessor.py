@@ -342,6 +342,8 @@ def interval_checker(input_name):
                 else:
                     ede_array.append(cur_ede.strip())
                     cur_ind_ede += 1
+            if not len(sentence_array):
+                sentence_array.append([0, cur_ind_ede])
             sentence_array[-1][1] = len(ede_array)-1
             #sentence_array.append([prev_begin_sentence, cur_ind_ede-1])
         except Exception as err:
