@@ -150,11 +150,11 @@ def interval_checker_grid(input_name):
 
         grid = text_grid.readGrid(grid_name, encoding="UTF-8")
 
-        intervals = [elem for elem in grid["levels"]["wbound"] if elem["nm"].strip() != "g"]
-        pauses =  [{"frm": elem["frm"], "to": elem["to"], "nm": ""} for elem in grid["levels"]["wbound"] if elem["nm"].strip() == "g"]
+        nontranscribed_symbols = ['d', 'g', 'n']
+        intervals = [elem for elem in grid["levels"]["wbound"] if elem["nm"].strip() not in nontranscribed_symbols]
+        pauses =  [{"frm": elem["frm"], "to": elem["to"], "nm": ""} for elem in grid["levels"]["wbound"] if elem["nm"].strip() in nontranscribed_symbols]
         if intervals[0]["nm"].strip() == "":
             intervals = intervals[1:]
-
 
         ede_base_error = []
         if len(intervals) != len(boundaries_text):
@@ -330,6 +330,7 @@ def interval_checker(input_name):
         seg_base_error = os.path.splitext(input_name)[0] + ".seg_R3"
 
         try:
+            nontranscribed_symbols = ['d', 'g', 'n']
             ede_splt = text_reader.read_txt(txt_name).split("\n")
             ede_array = []
             sentence_array = []
@@ -391,7 +392,7 @@ def interval_checker(input_name):
                 if i == len(ede_frm_array)-1:
                     t = len(seg["periods"][interval_name])
 
-                cur_ede_intervals = [el for el in seg["periods"][interval_name][frm:t] if el["nm"] != "g"]
+                cur_ede_intervals = [el for el in seg["periods"][interval_name][frm:t] if el["nm"] not in nontranscribed_symbols]
 
                 cur_ede_frm_txt = [el for el in ede_array[ind_ede].strip().split(" ") if el.strip() != "" and not el.strip().startswith("!")]
 
