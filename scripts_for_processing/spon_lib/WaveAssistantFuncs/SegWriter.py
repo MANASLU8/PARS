@@ -5,7 +5,7 @@ import os,re,codecs
 def main():
     filename = r"a.seg_B1"
     write_seg(filename, [])
-def write_seg(filename, data, sample_rate = 22050, byte_per_sample=2, n_channel = 1, encoding="windows-1251"):
+def write_seg(filename, data, sample_rate = 22050, byte_per_sample=2, n_channel = 1, encoding="UTF-8"):
     '''
     Записывает один сег в файл
     На вход

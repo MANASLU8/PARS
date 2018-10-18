@@ -229,7 +229,7 @@ def interval_checker_grid(input_name):
 def write_text_grid_from_hash(grid_name, seg, levels):
     try:
         w = None
-        w = open(grid_name, "w", encoding = "utf8")
+        w = open(grid_name, "w", encoding="UTF-8")
         if w is None:
             return
         #chapka

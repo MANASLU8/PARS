@@ -6,7 +6,7 @@ __author__ = "Alexander Shipilo"
 #SegToPer -
 import spon_lib.WaveAssistantFuncs.SegDict as SegDict
 import os, re
-def __read_seg(f_name, seg = None, encoding="windows-1251"):
+def __read_seg(f_name, seg = None, encoding="UTF-8"):
     if seg is None:
         seg = {}
     try:
@@ -72,7 +72,7 @@ def __read_seg(f_name, seg = None, encoding="windows-1251"):
     finally:
         if f is not None:
             f.close()
-def readSeg(f_name, rAllLevels = None, levels2read = None, encoding = "Windows-1251"):
+def readSeg(f_name, rAllLevels = None, levels2read = None, encoding = "UTF-8"):
     seg = {}
     ind_ext = f_name.rindex(".")
     extention = f_name[ind_ext+1:]
